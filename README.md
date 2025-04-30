@@ -54,9 +54,11 @@ Nos momentos livres, colaboro em projetos open source 🌐 e aprimoro design UX/
 
 ## 🐍 Snake Animation
 
-<div align="center">
-  <img src="https://github.com/gblsun/gblsun/raw/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/gblsun/gblsun/raw/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/gblsun/gblsun/raw/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake Animation" src="https://github.com/gblsun/gblsun/raw/output/github-contribution-grid-snake.svg" />
+</picture>
 
 ---
 
