@@ -1,20 +1,18 @@
-# 👋 Olá! Eu sou o Gabriel Pavanelli
+# Apresentação:
 
 <p align="center">
   <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="Logo Gabriel" />
 </p>
 
 <p align="center">
-💻 <strong>Estudante de Ciência da Computação</strong> | Explorando oportunidades de trabalho inovadoras para transformar ideias em soluções reais.
+💻 <strong>Estagiário em Data & Analytics | Estudante de Ciência da Computação</strong> | Explorando oportunidades de trabalho inovadoras para transformar ideias em soluções reais.
 </p>
 
 ---
 
-## 🚀 Sobre mim
+## Sobre mim
 
-Sou apaixonado por tecnologia e inovação, com foco em desenvolvimento de software e design criativo. Atualmente, aperfeiçoo minhas habilidades em **Python**, **Java**, **HTML**, **CSS** e conceitos de **machine learning**. Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre combinando criatividade com eficiência.
-
-Nos momentos livres, colaboro em projetos open source 🌐 e aprimoro design UX/UI com **Figma** e **Canva** 🎨.
+Sou apaixonado por tecnologia e inovação, com foco em desenvolvimento de software e design criativo. Atualmente, estagio em Análise de dados e aperfeiçoo minhas habilidades em **Python**, **Java**, **HTML**, **CSS** e conceitos de **machine learning**. Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre combinando criatividade com eficiência.
 
 ---
 
@@ -26,24 +24,23 @@ Nos momentos livres, colaboro em projetos open source 🌐 e aprimoro design UX/
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img alt="Java" src="https://img.shields.io/badge/Java-F80000?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img alt="Figma" src="https://img.shields.io/badge/Figma-0AC97F?style=for-the-badge&logo=figma&logoColor=white" />
-  <img alt="Canva" src="https://img.shields.io/badge/Canva-20C4CC?style=for-the-badge&logo=canva&logoColor=white" />
 </div>
 
 ---
 
-## ✨ Projetos em Destaque
+## Projetos em Destaque
 
-### 🚀 **Técnicas de Programação (Python)**  
+### **Técnicas de Programação (Python)**  
 [🔗 Repositório Completo](https://github.com/gblsun/dev/tree/main/Bacharelado%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20IMPACTA/2%20Semestre/tecnicas-de-programacao)  
 💡 Implementações de algoritmos avançados (Quick Sort, Merge Sort, etc.), recursividade, TDD, entre outros.
 
-### 🎨 **Portfólio Web com HTML e CSS**  
+### **Portfólio Web com HTML e CSS**  
 [🔗 Repositório Completo](https://github.com/gblsun/dev/tree/main/html%2C%20css/portf%C3%B3lio1)  
-📌 Um projeto de **portfólio moderno e responsivo**, desenvolvido com **HTML** e **CSS**, exibindo habilidades em estilização e estruturação de páginas web.
+Um projeto de **portfólio moderno e responsivo**, desenvolvido com **HTML** e **CSS**, exibindo habilidades em estilização e estruturação de páginas web.
 
 ---
 
-## 📊 Estatísticas do GitHub
+## Estatísticas do GitHub
 
 <div align="center">
   <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=gblsun&show_icons=true&theme=dark&bg_color=30,000000,1a1a1a&title_color=ffffff&text_color=ffffff" />
@@ -59,7 +56,7 @@ Nos momentos livres, colaboro em projetos open source 🌐 e aprimoro design UX/
 
 ---
 
-## 📬 Entre em Contato
+## Entre em Contato
 
 <div align="center">
   <a href="https://www.linkedin.com/in/gabriel-pavanelli/" target="_blank">
