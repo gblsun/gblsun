@@ -1,10 +1,6 @@
 # Apresentação:
 
 <p align="center">
-  <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="Logo Gabriel" />
-</p>
-
-<p align="center">
 <strong>Estagiário em Data & Analytics | Estudante de Ciência da Computação</strong> | Explorando oportunidades de trabalho inovadoras para transformar ideias em soluções reais.
 </p>
 
