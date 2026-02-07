@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-💻 <strong>Estagiário em Data & Analytics | Estudante de Ciência da Computação</strong> | Explorando oportunidades de trabalho inovadoras para transformar ideias em soluções reais.
+<strong>Estagiário em Data & Analytics | Estudante de Ciência da Computação</strong> | Explorando oportunidades de trabalho inovadoras para transformar ideias em soluções reais.
 </p>
 
 ---
