@@ -8,7 +8,7 @@
 
 ## Sobre mim
 
-Sou apaixonado por tecnologia e inovação, com foco em desenvolvimento de software e design criativo. Atualmente, estagio em Análise de dados e aperfeiçoo minhas habilidades em **Python**, **Java**, **HTML**, **CSS** e conceitos de **machine learning**. Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre combinando criatividade com eficiência.
+Sou apaixonado por tecnologia e inovação, atualmente atuo como Intern em Advisory Consulting, com foco em Data Analystic. Além disso, foco meus estudos em desenvolvimento de software e design criativo. Também procuro aperfeiçoar minhas habilidades em **Python**, **Java**, **HTML**, **CSS** e conceitos de **Intiligência Artificial**. Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre combinando criatividade com eficiência.
 
 ---
 
@@ -27,7 +27,7 @@ Sou apaixonado por tecnologia e inovação, com foco em desenvolvimento de softw
 ## Projetos em Destaque
 
 ### **Técnicas de Programação (Python)**  
-[🔗 Repositório Completo](https://github.com/gblsun/dev/tree/main/Bacharelado%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20IMPACTA/2%20Semestre/tecnicas-de-programacao)  
+[🔗 Repositório Completo]([https://github.com/gblsun/dev/tree/main/Bacharelado%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20IMPACTA/2%20Semestre/tecnicas-de-programacao](https://github.com/gblsun/dev/tree/main/Bacharelado%20-%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20IMPACTA/2%20Semestre/tecnicas-de-programacao))  
 💡 Implementações de algoritmos avançados (Quick Sort, Merge Sort, etc.), recursividade, TDD, entre outros.
 
 ### **Portfólio Web com HTML e CSS**  
