@@ -27,7 +27,7 @@ Sou apaixonado por tecnologia e inovação, atualmente atuo como Intern em Advis
 ## Projetos em Destaque
 
 ### **Técnicas de Programação (Python)**  
-[🔗 Repositório Completo]([https://github.com/gblsun/dev/tree/main/Bacharelado%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20IMPACTA/2%20Semestre/tecnicas-de-programacao](https://github.com/gblsun/dev/tree/main/Bacharelado%20-%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20IMPACTA/2%20Semestre/tecnicas-de-programacao))  
+[🔗 Repositório Completo](https://github.com/gblsun/dev/tree/fbad8ca406f83f90e389273ffd38efa7fd52223b/Bacharelado%20-%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20IMPACTA/2%20Semestre/tecnicas-de-programacao)  
 💡 Implementações de algoritmos avançados (Quick Sort, Merge Sort, etc.), recursividade, TDD, entre outros.
 
 ### **Portfólio Web com HTML e CSS**  
