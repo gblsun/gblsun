@@ -36,21 +36,6 @@ Um projeto de **portfólio moderno e responsivo**, desenvolvido com **HTML** e *
 
 ---
 
-## Estatísticas do GitHub
-
-<div align="center">
-  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=gblsun&show_icons=true&theme=dark&bg_color=30,000000,1a1a1a&title_color=ffffff&text_color=ffffff" />
-  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gblsun&layout=compact&langs_count=6&theme=dark&bg_color=30,000000,1a1a1a&title_color=ffffff&text_color=ffffff" />
-</div>
-
---- 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/gblsun/gblsun/raw/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/gblsun/gblsun/raw/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake Animation" src="https://github.com/gblsun/gblsun/raw/output/github-contribution-grid-snake.svg" />
-</picture>
-
----
 
 ## Entre em Contato
 
