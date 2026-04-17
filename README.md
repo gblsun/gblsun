@@ -28,11 +28,11 @@ Sou apaixonado por tecnologia e inovação, atualmente atuo como Intern em Advis
 
 ### **Técnicas de Programação (Python)**  
 [🔗 Repositório Completo](https://github.com/gblsun/dev/tree/fbad8ca406f83f90e389273ffd38efa7fd52223b/Bacharelado%20-%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20IMPACTA/2%20Semestre/tecnicas-de-programacao)  
-💡 Implementações de algoritmos avançados (Quick Sort, Merge Sort, etc.), recursividade, TDD, entre outros.
+- Implementações de algoritmos avançados (Quick Sort, Merge Sort, etc.), recursividade, TDD, entre outros.
 
 ### **Portfólio Web com HTML e CSS**  
 [🔗 Repositório Completo](https://github.com/gblsun/dev/tree/main/html%2C%20css/portf%C3%B3lio1)  
-Um projeto de **portfólio moderno e responsivo**, desenvolvido com **HTML** e **CSS**, exibindo habilidades em estilização e estruturação de páginas web.
+- Um projeto de **portfólio moderno e responsivo**, desenvolvido com **HTML** e **CSS**, exibindo habilidades em estilização e estruturação de páginas web.
 
 ---
 
