@@ -1,7 +1,7 @@
 # Apresentação:
 
 <p align="center">
-<strong>Estagiário em Data & Analytics | Estudante de Ciência da Computação</strong>
+<strong>Data & Analytics Intern at PwC | Advisory Transformation Tech Consulting | Computer Science Student</strong>
 </p>
 
 ---
