@@ -51,9 +51,9 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 **🎨 Design**
 
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" />
-<img src="https://img.shields.io/badge/GIMP-8C8073?style=for-the-badge&logo=gimp&logoColor=white" alt="GIMP" />
+<img src="https://img.shields.io/badge/Figma-2B213A?style=for-the-badge&logo=figma&logoColor=00E5FF" alt="Figma" />
+<img src="https://img.shields.io/badge/Canva-2B213A?style=for-the-badge&logo=canva&logoColor=00E5FF" alt="Canva" />
+<img src="https://img.shields.io/badge/GIMP-2B213A?style=for-the-badge&logo=gimp&logoColor=00E5FF" alt="GIMP" />
 
 <br><br>
 
@@ -61,13 +61,14 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=vscode,idea,eclipse,pycharm,visualstudio,androidstudio&theme=dark&perline=6" alt="IDEs" /></a>
 
-<img src="https://img.shields.io/badge/Delphi-E62431?style=for-the-badge&logo=delphi&logoColor=white" alt="Delphi" />
+<img src="https://img.shields.io/badge/Delphi-2B213A?style=for-the-badge&logo=delphi&logoColor=00E5FF" alt="Delphi" />
+<img src="https://img.shields.io/badge/GitLens-2B213A?style=for-the-badge&logo=git&logoColor=00E5FF" alt="GitLens" />
 
 <br><br>
 
 **Sistemas, Hardware & Cloud**
 
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=arduino,debian,linux,windows,kali,azure,gcp,git,github&theme=dark&perline=9" alt="Sistemas e cloud" /></a>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=arduino,debian,ubuntu,linux,windows,kali,azure,gcp,git,github&theme=dark&perline=10" alt="Sistemas e cloud" /></a>
 
 <img src="https://img.shields.io/badge/WSL-2B213A?style=for-the-badge&logoColor=00E5FF" alt="WSL" />
 
@@ -77,8 +78,10 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" alt="Next.js" /></a>
 
-<img src="https://img.shields.io/badge/SQL-2B213A?style=for-the-badge&logoColor=00E5FF" alt="SQL" />
-<img src="https://img.shields.io/badge/Access-A4373A?style=for-the-badge&logoColor=white" alt="Microsoft Access" />
+<img src="https://img.shields.io/badge/Pandas-2B213A?style=for-the-badge&logo=pandas&logoColor=EF8539" alt="Pandas" />
+<img src="https://img.shields.io/badge/PySpark-2B213A?style=for-the-badge&logo=apachespark&logoColor=EF8539" alt="PySpark" />
+<img src="https://img.shields.io/badge/SQL-2B213A?style=for-the-badge&logoColor=EF8539" alt="SQL" />
+<img src="https://img.shields.io/badge/Access-2B213A?style=for-the-badge&logoColor=EF8539" alt="Microsoft Access" />
 
 </div>
 
