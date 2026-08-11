@@ -6,7 +6,7 @@
 
 <a href="https://github.com/gblsun" target="_blank"><img src="https://skillicons.dev/icons?i=github&theme=dark" height="48" alt="GitHub" /></a>&nbsp;
 <a href="https://www.linkedin.com/in/gabriel-pavanelli/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="48" alt="LinkedIn" /></a>&nbsp;
-<a href="https://www.instagram.com/gabrielmpavanelli/?next=%2F" target="_blank"><img src="https://skillicons.dev/icons?i=instagram&theme=dark" height="48" alt="Instagram" /></a>&nbsp;
+<a href="https://open.spotify.com/user/gabriel.mp13?si=e32b7dde6a554500" target="_blank"><img src="https://skillicons.dev/icons?i=spotify&theme=dark" height="48" alt="Spotify" /></a>&nbsp;
 <a href="mailto:Gabriel.mp13@hotmail.com" target="_blank"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" height="48" alt="E-mail" /></a>
 
 <br>
@@ -40,15 +40,54 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 <div align="center">
 
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,java,ts,c,elixir,html,css,git,github,figma,vscode&theme=dark&perline=11" alt="Ícones da stack" /></a>
+**Linguagens**
 
-<br>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,java,ts,cpp,c,elixir,html,css&theme=dark&perline=8" alt="Linguagens" /></a>
 
 <img src="https://img.shields.io/badge/+%20Jupyter%20Notebook-2B213A?style=flat-square&logo=jupyter&logoColor=EF8539" alt="Jupyter Notebook" />
 
+<br><br>
+
+**🎨 Design**
+
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" />
+<img src="https://img.shields.io/badge/GIMP-8C8073?style=for-the-badge&logo=gimp&logoColor=white" alt="GIMP" />
+
+<br><br>
+
+**IDEs & Editores**
+
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=vscode,idea,eclipse,pycharm,visualstudio,androidstudio&theme=dark&perline=6" alt="IDEs" /></a>
+
+<img src="https://img.shields.io/badge/Delphi-E62431?style=for-the-badge&logo=delphi&logoColor=white" alt="Delphi" />
+
+<br><br>
+
+**Sistemas, Hardware & Cloud**
+
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=arduino,debian,linux,windows,kali,azure,gcp,git,github&theme=dark&perline=9" alt="Sistemas e cloud" /></a>
+
+<img src="https://img.shields.io/badge/WSL-2B213A?style=for-the-badge&logoColor=00E5FF" alt="WSL" />
+
+<br><br>
+
+**Dados & Frameworks**
+
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" alt="Next.js" /></a>
+
+<img src="https://img.shields.io/badge/SQL-2B213A?style=for-the-badge&logoColor=00E5FF" alt="SQL" />
+<img src="https://img.shields.io/badge/Access-A4373A?style=for-the-badge&logoColor=white" alt="Microsoft Access" />
+
+<br><br>
+
+**Produtividade**
+
+<a href="https://www.software.com/code-time" target="_blank"><img src="https://img.shields.io/badge/⏱️%20Code%20Time-EF8539?style=for-the-badge&logoColor=white" alt="Code Time"></a>
+
 </div>
 
-<sub>🎨 Padrão visual: ícones de tecnologia seguem o conjunto <a href="https://skillicons.dev">skillicons.dev</a> (tema escuro) · botões de ação usam roxo <code>#430D3C</code> + ciano <code>#00E5FF</code> · tags de projeto usam rosa <code>#E5289E</code>.</sub>
+<sub>🎨 Padrão visual: ícones seguem o conjunto <a href="https://skillicons.dev">skillicons.dev</a> (tema escuro); onde não existe ícone dedicado (Canva, Delphi, WSL, SQL, Access, Code Time), uso um badge sólido na cor oficial da marca · botões de ação usam roxo <code>#430D3C</code> + ciano <code>#00E5FF</code> · tags de projeto usam rosa <code>#E5289E</code>.</sub>
 
 <img src="assets/neon-divider.svg" width="100%" alt="" />
 
@@ -159,6 +198,26 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 <img src="assets/neon-divider.svg" width="100%" alt="" />
 
+## ✍️ Publicações
+
+<div align="center">
+
+<a href="https://medium.com/@Gabriel.mp13" target="_blank">
+  <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium">
+</a>
+
+<br><br>
+
+<a href="https://medium.com/@Gabriel.mp13/paradigma-estruturado-por-que-ele-ainda-sustenta-a-programa%C3%A7%C3%A3o-moderna-portugu%C3%AAs-brasil-ddc4df4e3fe3" target="_blank">
+  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@Gabriel.mp13/0" alt="Último artigo no Medium" width="100%" />
+</a>
+
+</div>
+
+> 📝 Escrevo sobre ciência da computação e paradigmas de programação. Último artigo publicado: **"Paradigma Estruturado: por que ele ainda sustenta a programação moderna"** — o card acima é gerado dinamicamente e se atualiza a cada novo post.
+
+<img src="assets/neon-divider.svg" width="100%" alt="" />
+
 ## 📡 Contato
 
 <div align="center">
@@ -167,7 +226,7 @@ Estou sempre aberto a colaborar em projetos, compartilhar ideias e encontrar opo
 **Vamos transformar ideias em realidade!**
 
 <a href="https://www.linkedin.com/in/gabriel-pavanelli/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="48" alt="LinkedIn" /></a>&nbsp;
-<a href="https://www.instagram.com/gabrielmpavanelli/?next=%2F" target="_blank"><img src="https://skillicons.dev/icons?i=instagram&theme=dark" height="48" alt="Instagram" /></a>&nbsp;
+<a href="https://open.spotify.com/user/gabriel.mp13?si=e32b7dde6a554500" target="_blank"><img src="https://skillicons.dev/icons?i=spotify&theme=dark" height="48" alt="Spotify" /></a>&nbsp;
 <a href="mailto:Gabriel.mp13@hotmail.com" target="_blank"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" height="48" alt="E-mail" /></a>
 
 <br><br>
