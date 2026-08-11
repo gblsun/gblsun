@@ -79,15 +79,7 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 <img src="https://img.shields.io/badge/SQL-2B213A?style=for-the-badge&logoColor=00E5FF" alt="SQL" />
 <img src="https://img.shields.io/badge/Access-A4373A?style=for-the-badge&logoColor=white" alt="Microsoft Access" />
 
-<br><br>
-
-**Produtividade**
-
-<a href="https://www.software.com/code-time" target="_blank"><img src="https://img.shields.io/badge/⏱️%20Code%20Time-EF8539?style=for-the-badge&logoColor=white" alt="Code Time"></a>
-
 </div>
-
-<sub>🎨 Padrão visual: ícones seguem o conjunto <a href="https://skillicons.dev">skillicons.dev</a> (tema escuro); onde não existe ícone dedicado (Canva, Delphi, WSL, SQL, Access, Code Time), uso um badge sólido na cor oficial da marca · botões de ação usam roxo <code>#430D3C</code> + ciano <code>#00E5FF</code> · tags de projeto usam rosa <code>#E5289E</code>.</sub>
 
 <img src="assets/neon-divider.svg" width="100%" alt="" />
 
@@ -109,17 +101,13 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 </div>
 
-> ⚡ Os cartões acima são gerados em tempo real a partir da minha atividade pública no GitHub — os percentuais de linguagens são recalculados automaticamente conforme os repositórios evoluem.
-
-### 🐍 A cobrinha comendo meus commits
+### 🐍 Grid de Contribuições
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/gblsun/gblsun/output/github-contribution-grid-snake.svg" alt="Snake comendo o gráfico de contribuições" width="100%" />
+<img src="https://raw.githubusercontent.com/gblsun/gblsun/output/github-contribution-grid-snake.svg" alt="Snake percorrendo o gráfico de contribuições" width="100%" />
 
 </div>
-
-> 🕹️ Gerada automaticamente por uma GitHub Action (`.github/workflows/snake.yml`), recolorida no mesmo tema synthwave. Ela é reconstruída a cada 24h a partir do meu gráfico de contribuições real — a imagem só aparece depois que a Action roda pela primeira vez após este push.
 
 <img src="assets/neon-divider.svg" width="100%" alt="" />
 
@@ -212,9 +200,29 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
   <img src="https://github-readme-medium-recent-article.vercel.app/medium/@Gabriel.mp13/0" alt="Último artigo no Medium" width="100%" />
 </a>
 
+<br><br>
+
+<a href="https://www.linkedin.com/in/gabriel-pavanelli/" target="_blank">
+  <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="48" alt="LinkedIn" />
+</a>
+
+**[Gabriel Pavanelli no LinkedIn](https://www.linkedin.com/in/gabriel-pavanelli/)**
+
 </div>
 
-> 📝 Escrevo sobre ciência da computação e paradigmas de programação. Último artigo publicado: **"Paradigma Estruturado: por que ele ainda sustenta a programação moderna"** — o card acima é gerado dinamicamente e se atualiza a cada novo post.
+> ✍️ Escrevo sobre ciência da computação e paradigmas de programação no Medium. Último artigo: **"Paradigma Estruturado: por que ele ainda sustenta a programação moderna"**.
+
+<img src="assets/neon-divider.svg" width="100%" alt="" />
+
+## 🎧 Spotify
+
+<div align="center">
+
+<a href="https://open.spotify.com/user/gabriel.mp13?si=e32b7dde6a554500" target="_blank">
+  <img src="https://skillicons.dev/icons?i=spotify&theme=dark" height="48" alt="Spotify" />
+</a>
+
+</div>
 
 <img src="assets/neon-divider.svg" width="100%" alt="" />
 
@@ -226,7 +234,6 @@ Estou sempre aberto a colaborar em projetos, compartilhar ideias e encontrar opo
 **Vamos transformar ideias em realidade!**
 
 <a href="https://www.linkedin.com/in/gabriel-pavanelli/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="48" alt="LinkedIn" /></a>&nbsp;
-<a href="https://open.spotify.com/user/gabriel.mp13?si=e32b7dde6a554500" target="_blank"><img src="https://skillicons.dev/icons?i=spotify&theme=dark" height="48" alt="Spotify" /></a>&nbsp;
 <a href="mailto:Gabriel.mp13@hotmail.com" target="_blank"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" height="48" alt="E-mail" /></a>
 
 <br><br>
