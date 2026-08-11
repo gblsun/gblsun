@@ -8,10 +8,10 @@ on:
   # Permite execução manual
   workflow_dispatch:
   
-  # Roda em cada push na branch master
+  # Roda em cada push na branch main
   push:
     branches:
-    - master
+    - main
 
 jobs:
   generate:
@@ -29,8 +29,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#00e5ff&color_dots=#2b213a,#430d3c,#a01e6b,#e5289e,#ef8539
 
       - name: Publicar a animação na branch output
         uses: crazy-max/ghaction-github-pages@v3.1.0

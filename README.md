@@ -57,7 +57,12 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=gblsun&show_icons=true&theme=synthwave&hide_border=true&count_private=true&bg_color=430D3C" alt="Estatísticas do GitHub" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gblsun&layout=compact&theme=synthwave&hide_border=true&bg_color=430D3C&langs_count=8" alt="Linguagens mais usadas" height="165" />
+
+<br clear="both"><br>
+
+**🗂️ Linguagens mais usadas**
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gblsun&layout=compact&theme=synthwave&hide_border=true&bg_color=430D3C&langs_count=10" alt="Linguagens mais usadas" />
 
 <br><br>
 
@@ -66,6 +71,16 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 </div>
 
 > ⚡ Os cartões acima são gerados em tempo real a partir da minha atividade pública no GitHub — os percentuais de linguagens são recalculados automaticamente conforme os repositórios evoluem.
+
+### 🐍 A cobrinha comendo meus commits
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/gblsun/gblsun/output/github-contribution-grid-snake.svg" alt="Snake comendo o gráfico de contribuições" width="100%" />
+
+</div>
+
+> 🕹️ Gerada automaticamente por uma GitHub Action (`.github/workflows/snake.yml`), recolorida no mesmo tema synthwave. Ela é reconstruída a cada 24h a partir do meu gráfico de contribuições real — a imagem só aparece depois que a Action roda pela primeira vez após este push.
 
 <img src="assets/neon-divider.svg" width="100%" alt="" />
 
