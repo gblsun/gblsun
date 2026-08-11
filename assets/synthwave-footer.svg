@@ -1,0 +1,55 @@
+<svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rodapé Synthwave">
+  <defs>
+    <linearGradient id="skyF" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#0d0417"/>
+      <stop offset="40%" stop-color="#430d3c"/>
+      <stop offset="75%" stop-color="#a01e6b"/>
+      <stop offset="100%" stop-color="#ef8539"/>
+    </linearGradient>
+    <radialGradient id="sunGradF" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff2c2"/>
+      <stop offset="30%" stop-color="#ef8539"/>
+      <stop offset="65%" stop-color="#e5289e"/>
+      <stop offset="100%" stop-color="#430d3c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gridGradF" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="50%" stop-color="#e5289e"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+    <clipPath id="belowHorizonF"><rect x="0" y="30" width="1200" height="90"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="120" fill="url(#skyF)"/>
+
+  <g clip-path="url(#belowHorizonF)">
+    <circle cx="600" cy="30" r="60" fill="url(#sunGradF)">
+      <animate attributeName="r" values="56;64;56" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <rect x="0" y="29" width="1200" height="2" fill="#00e5ff" opacity="0.85"/>
+
+  <g clip-path="url(#belowHorizonF)" stroke="url(#gridGradF)" stroke-width="1.2" opacity="0.7" fill="none">
+    <line x1="600" y1="30" x2="-80" y2="120"/>
+    <line x1="600" y1="30" x2="120" y2="120"/>
+    <line x1="600" y1="30" x2="320" y2="120"/>
+    <line x1="600" y1="30" x2="460" y2="120"/>
+    <line x1="600" y1="30" x2="600" y2="120"/>
+    <line x1="600" y1="30" x2="740" y2="120"/>
+    <line x1="600" y1="30" x2="880" y2="120"/>
+    <line x1="600" y1="30" x2="1080" y2="120"/>
+    <line x1="600" y1="30" x2="1280" y2="120"/>
+
+    <line x1="0" y1="35" x2="1200" y2="35">
+      <animate attributeName="y1" values="30;120;30" dur="3s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="30;120;30" dur="3s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0;1" dur="3s" begin="0s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="35" x2="1200" y2="35">
+      <animate attributeName="y1" values="30;120;30" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="30;120;30" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0;1" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+</svg>

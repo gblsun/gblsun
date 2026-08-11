@@ -1,0 +1,52 @@
+<svg viewBox="0 0 640 236" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, 'Courier New', monospace" role="img" aria-label="Terminal - sobre mim">
+  <defs>
+    <linearGradient id="frameGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e5289e"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="637" height="233" rx="14" fill="#150a1f" stroke="url(#frameGrad)" stroke-width="1.6"/>
+  <path d="M1.5 15.5 A14 14 0 0 1 15.5 1.5 H624.5 A14 14 0 0 1 638.5 15.5 V32 H1.5 Z" fill="#20102b"/>
+  <line x1="1.5" y1="32" x2="638.5" y2="32" stroke="#430d3c" stroke-width="1"/>
+
+  <circle cx="22" cy="16" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="16" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="16" r="6" fill="#27c93f"/>
+  <text x="320" y="20" text-anchor="middle" font-size="12" fill="#8b7d96">gabriel@synthwave:~</text>
+
+  <g font-size="15">
+    <text x="24" y="64" fill="#00e5ff" opacity="0">
+      $ whoami
+      <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.3s" fill="freeze"/>
+    </text>
+    <text x="24" y="88" fill="#e5289e" opacity="0">
+      &gt; gabriel_pavanelli
+      <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.3s" fill="freeze"/>
+    </text>
+    <text x="24" y="112" fill="#00e5ff" opacity="0">
+      $ cat cargo.toml
+      <animate attributeName="opacity" from="0" to="1" begin="1.9s" dur="0.3s" fill="freeze"/>
+    </text>
+    <text x="24" y="136" fill="#e5289e" opacity="0">
+      &gt; role = "Data &amp; Analytics Intern @ PwC"
+      <animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.3s" fill="freeze"/>
+    </text>
+    <text x="24" y="160" fill="#00e5ff" opacity="0">
+      $ echo $STACK
+      <animate attributeName="opacity" from="0" to="1" begin="3.7s" dur="0.3s" fill="freeze"/>
+    </text>
+    <text x="24" y="184" fill="#e5289e" opacity="0">
+      &gt; Python · Java · TypeScript · C · Elixir
+      <animate attributeName="opacity" from="0" to="1" begin="4.6s" dur="0.3s" fill="freeze"/>
+    </text>
+    <text x="24" y="208" fill="#00e5ff" opacity="0">
+      $
+      <animate attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.2s" fill="freeze"/>
+    </text>
+  </g>
+
+  <rect x="40" y="196" width="9" height="16" fill="#00e5ff" opacity="0">
+    <animate attributeName="opacity" values="1;0;1;0;1;0;1;0" dur="4s" begin="5.7s" repeatCount="indefinite"/>
+  </rect>
+</svg>

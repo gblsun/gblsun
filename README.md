@@ -1,51 +1,163 @@
-# Apresentação:
+<div align="center">
 
-<p align="center">
-<strong>Data & Analytics Intern at PwC | Advisory Transformation Tech Consulting | Computer Science Student</strong>
-</p>
+<img src="assets/synthwave-banner.svg" width="100%" alt="Banner Synthwave - Gabriel Pavanelli" />
 
----
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=900&color=00E5FF&background=00000000&center=true&vCenter=true&multiline=true&width=760&height=90&lines=Bem-vindo+ao+meu+perfil!;Data+%26+Analytics+Intern+%40+PwC;Estudante+de+Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o;Python+%7C+Java+%7C+Dados+%7C+Design" alt="Typing SVG" />
 
-## Sobre mim
+<a href="https://github.com/gblsun" target="_blank"><img src="https://skillicons.dev/icons?i=github&theme=dark" height="48" alt="GitHub" /></a>&nbsp;
+<a href="https://www.linkedin.com/in/gabriel-pavanelli/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="48" alt="LinkedIn" /></a>&nbsp;
+<a href="https://www.instagram.com/gabrielmpavanelli/?next=%2F" target="_blank"><img src="https://skillicons.dev/icons?i=instagram&theme=dark" height="48" alt="Instagram" /></a>&nbsp;
+<a href="mailto:Gabriel.mp13@hotmail.com" target="_blank"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" height="48" alt="E-mail" /></a>
 
-Sou apaixonado por tecnologia e inovação, atualmente atuo como Intern em Advisory Consulting, com foco em Data Analystic. Além disso, foco meus estudos em desenvolvimento de software e design criativo. Também procuro aperfeiçoar minhas habilidades em **Python**, **Java**, **HTML**, **CSS** e conceitos de **Intiligência Artificial**. Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre combinando criatividade com eficiência.
+<br>
 
----
+<img src="https://komarev.com/ghpvc/?username=gblsun&label=VISUALIZA%C3%87%C3%95ES+DO+PERFIL&color=430D3C&style=for-the-badge" alt="Contador de visitas" />
 
-## 🛠️ Ferramentas e Tecnologias
-
-<div align="center" style="display: flex; flex-wrap: wrap;">
-  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img alt="Java" src="https://img.shields.io/badge/Java-F80000?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img alt="Figma" src="https://img.shields.io/badge/Figma-0AC97F?style=for-the-badge&logo=figma&logoColor=white" />
 </div>
 
----
+<img src="assets/neon-divider.svg" width="100%" alt="" />
 
-## Projetos em Destaque
+## 🌆 Sobre mim
 
-### **Técnicas de Programação (Python)**  
-[🔗 Repositório Completo](https://github.com/gblsun/dev/tree/fbad8ca406f83f90e389273ffd38efa7fd52223b/Bacharelado%20-%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20IMPACTA/2%20Semestre/tecnicas-de-programacao)  
-- Implementações de algoritmos avançados (Quick Sort, Merge Sort, etc.), recursividade, TDD, entre outros.
+<table>
+<tr>
+<td width="55%" valign="top">
 
-### **Portfólio Web com HTML e CSS**  
-[🔗 Repositório Completo](https://github.com/gblsun/dev/tree/main/html%2C%20css/portf%C3%B3lio1)  
-- Um projeto de **portfólio moderno e responsivo**, desenvolvido com **HTML** e **CSS**, exibindo habilidades em estilização e estruturação de páginas web.
+Sou apaixonado por tecnologia e inovação. Atualmente atuo como **Intern em Advisory Consulting**, com foco em **Data & Analytics**, enquanto curso **Ciência da Computação** na Faculdade Impacta de Tecnologia. Dedico meus estudos ao desenvolvimento de software, análise de dados e ao design criativo, aprimorando constantemente minhas habilidades em **Python**, **Java**, **TypeScript**, **C**, **Elixir** e **Inteligência Artificial**.
 
----
+Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre combinando **criatividade** com **eficiência**.
 
+</td>
+<td width="45%" valign="top">
+<img src="assets/terminal-about.svg" width="100%" alt="Terminal animado com resumo sobre mim" />
+</td>
+</tr>
+</table>
 
-## Entre em Contato
+<img src="assets/neon-divider.svg" width="100%" alt="" />
+
+## 🕹️ Stack
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/gabriel-pavanelli/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://www.instagram.com/gabrielmpavanelli/?next=%2F" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
-  </a>
+
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,java,ts,c,elixir,html,css,git,github,figma,vscode&theme=dark&perline=11" alt="Ícones da stack" /></a>
+
+<br>
+
+<img src="https://img.shields.io/badge/+%20Jupyter%20Notebook-2B213A?style=flat-square&logo=jupyter&logoColor=EF8539" alt="Jupyter Notebook" />
+
 </div>
 
-Estou sempre aberto a colaborar em projetos, compartilhar ideias e encontrar oportunidades incríveis. Vamos transformar ideias em realidade!
+<sub>🎨 Padrão visual: ícones de tecnologia seguem o conjunto <a href="https://skillicons.dev">skillicons.dev</a> (tema escuro) · botões de ação usam roxo <code>#430D3C</code> + ciano <code>#00E5FF</code> · tags de projeto usam rosa <code>#E5289E</code>.</sub>
+
+<img src="assets/neon-divider.svg" width="100%" alt="" />
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=gblsun&show_icons=true&theme=synthwave&hide_border=true&count_private=true&bg_color=430D3C" alt="Estatísticas do GitHub" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gblsun&layout=compact&theme=synthwave&hide_border=true&bg_color=430D3C&langs_count=8" alt="Linguagens mais usadas" height="165" />
+
+<br><br>
+
+<img src="https://streak-stats.demolab.com/?user=gblsun&theme=synthwave&hide_border=true&background=430D3C" alt="Streak de contribuições" />
+
+</div>
+
+> ⚡ Os cartões acima são gerados em tempo real a partir da minha atividade pública no GitHub — os percentuais de linguagens são recalculados automaticamente conforme os repositórios evoluem.
+
+<img src="assets/neon-divider.svg" width="100%" alt="" />
+
+## 🚀 Projetos em destaque
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌎 Análise e Projeção de Emissão de CO₂ no Brasil</h3>
+      <p>Meu projeto mais completo até aqui: análise exploratória e projeção de emissões de CO₂ no Brasil, com notebooks Jupyter, base de dados tratada e relatórios executivos entregues em HTML, PDF e apresentação.</p>
+      <img src="https://img.shields.io/badge/Jupyter-2B213A?style=flat-square&logo=jupyter&logoColor=E5289E" />
+      <img src="https://img.shields.io/badge/Python-2B213A?style=flat-square&logo=python&logoColor=E5289E" />
+      <img src="https://img.shields.io/badge/Data%20Analysis-2B213A?style=flat-square&logo=googleanalytics&logoColor=E5289E" />
+      <br><br>
+      <a href="https://github.com/gblsun/analise-emissoes-co2-brasil">
+        <img src="https://img.shields.io/badge/Ver%20Repositório-430D3C?style=for-the-badge&logo=github&logoColor=00E5FF" alt="Ver repositório">
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📚 Knowledge Repo</h3>
+      <p>Repositório com toda a minha trajetória de estudos em Ciência da Computação: técnicas de programação em Python, portfólio web em HTML/CSS e muito mais.</p>
+      <img src="https://img.shields.io/badge/Python-2B213A?style=flat-square&logo=python&logoColor=E5289E" />
+      <img src="https://img.shields.io/badge/HTML5-2B213A?style=flat-square&logo=html5&logoColor=E5289E" />
+      <img src="https://img.shields.io/badge/CSS3-2B213A?style=flat-square&logo=css3&logoColor=E5289E" />
+      <br><br>
+      <a href="https://github.com/gblsun/knowledge-repo/tree/main/Bacharelado%20-%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20IMPACTA/2%20Semestre/tecnicas-de-programacao">
+        <img src="https://img.shields.io/badge/T%C3%A9cnicas%20de%20Programa%C3%A7%C3%A3o-430D3C?style=for-the-badge&logo=python&logoColor=00E5FF" alt="Técnicas de Programação">
+      </a>
+      <a href="https://github.com/gblsun/knowledge-repo/tree/main/html%2C%20css/portf%C3%B3lio1">
+        <img src="https://img.shields.io/badge/Portf%C3%B3lio%20Web-430D3C?style=for-the-badge&logo=html5&logoColor=00E5FF" alt="Portfólio Web">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧮 Algoritmos e Estruturas de Dados</h3>
+      <p>Repositório colaborativo com resolução de exercícios de Algoritmos e Estruturas de Dados — Quick Sort, Merge Sort, recursividade, entre outros — dividido entre os membros da equipe.</p>
+      <img src="https://img.shields.io/badge/Java-2B213A?style=flat-square&logo=openjdk&logoColor=E5289E" />
+      <img src="https://img.shields.io/badge/Python-2B213A?style=flat-square&logo=python&logoColor=E5289E" />
+      <br><br>
+      <a href="https://github.com/gblsun/algoritmos-e-estruturas-de-dados-impacta">
+        <img src="https://img.shields.io/badge/Ver%20Repositório-430D3C?style=for-the-badge&logo=github&logoColor=00E5FF" alt="Ver repositório">
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎬 Locadora de Filmes (POO)</h3>
+      <p>Sistema de gerenciamento de locadora de filmes desenvolvido como atividade avaliativa de Programação Orientada a Objetos.</p>
+      <img src="https://img.shields.io/badge/Java-2B213A?style=flat-square&logo=openjdk&logoColor=E5289E" />
+      <img src="https://img.shields.io/badge/POO-2B213A?style=flat-square&logo=codereview&logoColor=E5289E" />
+      <br><br>
+      <a href="https://github.com/gblsun/ProjetoLocadoraFilmes">
+        <img src="https://img.shields.io/badge/Ver%20Repositório-430D3C?style=for-the-badge&logo=github&logoColor=00E5FF" alt="Ver repositório">
+      </a>
+    </td>
+  </tr>
+</table>
+
+### ✨ Outros achados no meu GitHub
+
+<div align="center">
+
+<a href="https://github.com/gblsun/knowledge-repo/tree/main/html%2C%20css/site-simples%28fundacao%20bradesco%29">
+  <img src="https://img.shields.io/badge/Site%20Institucional%20·%20Funda%C3%A7%C3%A3o%20Bradesco-2B213A?style=flat-square&logo=html5&logoColor=E5289E" alt="Site Fundação Bradesco">
+</a>
+<a href="https://github.com/gblsun/knowledge-repo/tree/main/ETEC%20Inform%C3%A1tica%20para%20Internet%20ABH/site%20ti%20%C3%A9%20aqui">
+  <img src="https://img.shields.io/badge/Site%20%22TI%20%C3%A9%20Aqui%22%20·%20ETEC-2B213A?style=flat-square&logo=javascript&logoColor=E5289E" alt="Site TI é Aqui">
+</a>
+<a href="https://github.com/gblsun/knowledge-repo/tree/main/Bacharelado%20-%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20IMPACTA/5%20Semestre/Paradigmas%20da%20Computa%C3%A7%C3%A3o/Atividade%20-%20Semana%209%20-%20Paradigma%20Funcional%20-%20Elixir">
+  <img src="https://img.shields.io/badge/Chat%20Funcional%20·%20Elixir-2B213A?style=flat-square&logo=elixir&logoColor=E5289E" alt="Chat funcional em Elixir">
+</a>
+<a href="https://github.com/gblsun/knowledge-repo/tree/main/Bacharelado%20-%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20IMPACTA/5%20Semestre/Paradigmas%20da%20Computa%C3%A7%C3%A3o/Atividade%2027.02">
+  <img src="https://img.shields.io/badge/Pipeline%20Funcional%20·%20TypeScript-2B213A?style=flat-square&logo=typescript&logoColor=E5289E" alt="Pipeline funcional em TypeScript">
+</a>
+
+</div>
+
+<img src="assets/neon-divider.svg" width="100%" alt="" />
+
+## 📡 Contato
+
+<div align="center">
+
+Estou sempre aberto a colaborar em projetos, compartilhar ideias e encontrar oportunidades incríveis.
+**Vamos transformar ideias em realidade!**
+
+<a href="https://www.linkedin.com/in/gabriel-pavanelli/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="48" alt="LinkedIn" /></a>&nbsp;
+<a href="https://www.instagram.com/gabrielmpavanelli/?next=%2F" target="_blank"><img src="https://skillicons.dev/icons?i=instagram&theme=dark" height="48" alt="Instagram" /></a>&nbsp;
+<a href="mailto:Gabriel.mp13@hotmail.com" target="_blank"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" height="48" alt="E-mail" /></a>
+
+<br><br>
+
+<img src="assets/synthwave-footer.svg" width="100%" alt="" />
+
+</div>
+</content>
