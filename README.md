@@ -218,8 +218,14 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 <div align="center">
 
+<a href="https://github.com/kittinan/spotify-github-profile" target="_blank">
+  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=gabriel.mp13&cover_image=true&theme=default&show_offline=false&background_color=430D3C&bar_color=00E5FF&bar_color_cover=false&border_radius=14&interchange=false&mode=dark" alt="Now playing no Spotify" />
+</a>
+
+<br><br>
+
 <a href="https://open.spotify.com/user/gabriel.mp13?si=e32b7dde6a554500" target="_blank">
-  <img src="https://skillicons.dev/icons?i=spotify&theme=dark" height="48" alt="Spotify" />
+  <img src="https://skillicons.dev/icons?i=spotify&theme=dark" height="48" alt="Perfil no Spotify" />
 </a>
 
 </div>
