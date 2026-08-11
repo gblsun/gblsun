@@ -78,8 +78,6 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" alt="Next.js" /></a>
 
-<img src="https://img.shields.io/badge/Pandas-2B213A?style=for-the-badge&logo=pandas&logoColor=EF8539" alt="Pandas" />
-<img src="https://img.shields.io/badge/PySpark-2B213A?style=for-the-badge&logo=apachespark&logoColor=EF8539" alt="PySpark" />
 <img src="https://img.shields.io/badge/SQL-2B213A?style=for-the-badge&logoColor=EF8539" alt="SQL" />
 <img src="https://img.shields.io/badge/Access-2B213A?style=for-the-badge&logoColor=EF8539" alt="Microsoft Access" />
 
