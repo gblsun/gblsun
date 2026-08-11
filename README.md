@@ -69,9 +69,10 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 **Sistemas, Hardware & Cloud**
 
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=arduino,debian,ubuntu,linux,windows,kali,azure,gcp,git,github&theme=dark&perline=10" alt="Sistemas e cloud" /></a>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=arduino,debian,ubuntu,linux,windows,kali,aws,azure,gcp,git,github&theme=dark&perline=11" alt="Sistemas e cloud" /></a>
 
 <img src="https://img.shields.io/badge/WSL-2B213A?style=for-the-badge&logoColor=00E5FF" alt="WSL" />
+<img src="https://img.shields.io/badge/Beecrowd-2B213A?style=for-the-badge&logoColor=00E5FF" alt="Beecrowd" />
 
 <br><br>
 
