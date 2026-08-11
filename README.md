@@ -213,8 +213,6 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 </details>
 
-> ✍️ Escrevo sobre ciência da computação e paradigmas de programação. Último artigo: **"Paradigma Estruturado: por que ele ainda sustenta a programação moderna"**. A lista acima cresce sozinha conforme novos artigos são publicados.
-
 <img src="assets/neon-divider.svg" width="100%" alt="" />
 
 ## 🎧 Spotify
