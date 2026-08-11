@@ -192,16 +192,32 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 <div align="center">
 
 <a href="https://medium.com/@Gabriel.mp13" target="_blank">
-  <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium">
+  <img src="https://img.shields.io/badge/Medium-430D3C?style=for-the-badge&logo=medium&logoColor=00E5FF" alt="Medium">
 </a>
 
-<br><br>
+</div>
+
+<br>
+
+<details open>
+<summary><strong>📜 Últimas publicações no Medium</strong></summary>
+<br>
+
+<div align="center">
 
 <a href="https://medium.com/@Gabriel.mp13/paradigma-estruturado-por-que-ele-ainda-sustenta-a-programa%C3%A7%C3%A3o-moderna-portugu%C3%AAs-brasil-ddc4df4e3fe3" target="_blank">
-  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@Gabriel.mp13/0" alt="Último artigo no Medium" width="100%" />
+  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@Gabriel.mp13/0" alt="Artigo 1 no Medium" width="100%" />
 </a>
 
-<br><br>
+</div>
+
+</details>
+
+> ✍️ Escrevo sobre ciência da computação e paradigmas de programação. Último artigo: **"Paradigma Estruturado: por que ele ainda sustenta a programação moderna"**. A lista acima cresce sozinha conforme novos artigos são publicados.
+
+<br>
+
+<div align="center">
 
 <a href="https://www.linkedin.com/in/gabriel-pavanelli/" target="_blank">
   <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="48" alt="LinkedIn" />
@@ -213,28 +229,38 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 <br>
 
+<div align="center">
+
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="320" valign="top">
+      <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="28" alt="" /><br>
       <h3>☁️ Certificação Google Cloud Computing Foundations</h3>
       <p>Concluí o programa <strong>GCCFAcademy Brasil</strong> (mai/2025): fundamentos de computação em nuvem, Big Data, Machine Learning e infraestrutura GCP (redes, segurança, APIs, Compute Engine, Dataflow, Dataprep), com 4 skill badges emitidos via Credly.</p>
-      <br>
       <a href="https://pt.linkedin.com/posts/gabriel-pavanelli_gccfacademy-googlecloud-gccf-activity-7334315390270894080-FUWb">
         <img src="https://img.shields.io/badge/Ver%20post-430D3C?style=for-the-badge&logo=linkedin&logoColor=00E5FF" alt="Ver post no LinkedIn">
       </a>
     </td>
-    <td width="50%" valign="top">
+    <td width="320" valign="top">
+      <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="28" alt="" /><br>
       <h3>📊 Treinamento de Imersão em Data Science</h3>
       <p>Formação na <strong>Impacta Tecnologia</strong> com o professor Marino Catarino: Kaggle, Google Colab e as bibliotecas NumPy, Pandas, Seaborn e Scikit-Learn aplicadas a ciência de dados.</p>
-      <br>
       <a href="https://pt.linkedin.com/posts/gabriel-pavanelli_treinamento-de-imers%C3%A3o-data-science-activity-7221583786394681345-gNlG">
         <img src="https://img.shields.io/badge/Ver%20post-430D3C?style=for-the-badge&logo=linkedin&logoColor=00E5FF" alt="Ver post no LinkedIn">
+      </a>
+    </td>
+    <td width="320" valign="top">
+      <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="28" alt="" /><br>
+      <h3>➕ Mais posts em breve</h3>
+      <p>Me envie os links (ou as imagens) dos posts que quiser destacar aqui e eu adiciono um novo card, com foto, nesta mesma fileira.</p>
+      <a href="https://www.linkedin.com/in/gabriel-pavanelli/recent-activity/all/">
+        <img src="https://img.shields.io/badge/Ver%20perfil-430D3C?style=for-the-badge&logo=linkedin&logoColor=00E5FF" alt="Ver perfil no LinkedIn">
       </a>
     </td>
   </tr>
 </table>
 
-> ✍️ Escrevo sobre ciência da computação e paradigmas de programação no Medium. Último artigo: **"Paradigma Estruturado: por que ele ainda sustenta a programação moderna"**.
+</div>
 
 <img src="assets/neon-divider.svg" width="100%" alt="" />
 
