@@ -7,6 +7,7 @@
 <a href="https://github.com/gblsun" target="_blank"><img src="https://skillicons.dev/icons?i=github&theme=dark" height="48" alt="GitHub" /></a>&nbsp;
 <a href="https://www.linkedin.com/in/gabriel-pavanelli/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="48" alt="LinkedIn" /></a>&nbsp;
 <a href="https://open.spotify.com/user/gabriel.mp13?si=e32b7dde6a554500" target="_blank"><img src="https://skillicons.dev/icons?i=spotify&theme=dark" height="48" alt="Spotify" /></a>&nbsp;
+<a href="https://discord.com/users/358808298428039188" target="_blank"><img src="https://skillicons.dev/icons?i=discord&theme=dark" height="48" alt="Discord" /></a>&nbsp;
 <a href="mailto:Gabriel.mp13@hotmail.com" target="_blank"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" height="48" alt="E-mail" /></a>
 
 <br>
@@ -87,13 +88,13 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=gblsun&show_icons=true&theme=synthwave&hide_border=true&count_private=true&bg_color=430D3C" alt="Estatísticas do GitHub" height="165" />
+<img src="https://github-readme-stats-gblsun1.vercel.app/api?username=gblsun&show_icons=true&theme=synthwave&hide_border=true&count_private=true&bg_color=430D3C" alt="Estatísticas do GitHub" height="165" />
 
 <br clear="both"><br>
 
 **🗂️ Linguagens mais usadas**
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gblsun&layout=compact&theme=synthwave&hide_border=true&bg_color=430D3C&langs_count=10" alt="Linguagens mais usadas" />
+<img src="https://github-readme-stats-gblsun1.vercel.app/api/top-langs/?username=gblsun&layout=compact&theme=synthwave&hide_border=true&bg_color=430D3C&langs_count=10" alt="Linguagens mais usadas" />
 
 <br><br>
 
