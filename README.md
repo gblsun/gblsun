@@ -63,6 +63,7 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 <img src="https://img.shields.io/badge/Delphi-2B213A?style=for-the-badge&logo=delphi&logoColor=00E5FF" alt="Delphi" />
 <img src="https://img.shields.io/badge/GitLens-2B213A?style=for-the-badge&logo=git&logoColor=00E5FF" alt="GitLens" />
+<img src="https://img.shields.io/badge/Notepad%2B%2B-2B213A?style=for-the-badge&logo=notepadplusplus&logoColor=00E5FF" alt="Notepad++" />
 
 <br><br>
 
