@@ -14,9 +14,21 @@
 
 <img src="https://komarev.com/ghpvc/?username=gblsun&label=VISUALIZA%C3%87%C3%95ES+DO+PERFIL&color=430D3C&style=for-the-badge" alt="Contador de visitas" />
 
+<br><br>
+
+<a href="#sobre"><img src="https://img.shields.io/badge/Sobre-430D3C?style=for-the-badge" alt="Sobre mim" /></a>
+<a href="#stack"><img src="https://img.shields.io/badge/Stack-430D3C?style=for-the-badge" alt="Stack" /></a>
+<a href="#stats"><img src="https://img.shields.io/badge/Stats-430D3C?style=for-the-badge" alt="GitHub Stats" /></a>
+<a href="#projetos"><img src="https://img.shields.io/badge/Projetos-430D3C?style=for-the-badge" alt="Projetos" /></a>
+<a href="#publicacoes"><img src="https://img.shields.io/badge/Publica%C3%A7%C3%B5es-430D3C?style=for-the-badge" alt="Publicações" /></a>
+<a href="#spotify"><img src="https://img.shields.io/badge/Spotify-430D3C?style=for-the-badge" alt="Spotify" /></a>
+<a href="#contato"><img src="https://img.shields.io/badge/Contato-430D3C?style=for-the-badge" alt="Contato" /></a>
+
 </div>
 
 <img src="assets/neon-divider.svg" width="100%" alt="" />
+
+<a name="sobre"></a>
 
 ## 🌆 Sobre mim
 
@@ -36,6 +48,8 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 </table>
 
 <img src="assets/neon-divider.svg" width="100%" alt="" />
+
+<a name="stack"></a>
 
 ## 🕹️ Stack
 
@@ -86,6 +100,8 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 <img src="assets/neon-divider.svg" width="100%" alt="" />
 
+<a name="stats"></a>
+
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -102,6 +118,12 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 <img src="https://streak-stats.demolab.com/?user=gblsun&theme=synthwave&hide_border=true&background=430D3C" alt="Streak de contribuições" />
 
+<br><br>
+
+**🏆 Troféus**
+
+<img src="https://github-trophies.vercel.app/?username=gblsun&theme=radical&no-frame=true&margin-w=8" alt="Troféus do GitHub" />
+
 </div>
 
 ### 🐍 Grid de Contribuições
@@ -113,6 +135,8 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 </div>
 
 <img src="assets/neon-divider.svg" width="100%" alt="" />
+
+<a name="projetos"></a>
 
 ## 🚀 Projetos em destaque
 
@@ -189,6 +213,8 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 <img src="assets/neon-divider.svg" width="100%" alt="" />
 
+<a name="publicacoes"></a>
+
 ## ✍️ Publicações
 
 <div align="center">
@@ -205,17 +231,25 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 <summary><strong>📜 Últimas publicações no Medium</strong></summary>
 <br>
 
-<div align="center">
+<table>
+<tr>
 
+<td width="33%" valign="top" align="center">
 <a href="https://medium.com/@Gabriel.mp13/paradigma-estruturado-por-que-ele-ainda-sustenta-a-programa%C3%A7%C3%A3o-moderna-portugu%C3%AAs-brasil-ddc4df4e3fe3" target="_blank">
-  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@Gabriel.mp13/0" alt="Artigo 1 no Medium" width="100%" />
+  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@Gabriel.mp13/0" alt="Artigo no Medium" width="100%" />
 </a>
+</td>
 
-</div>
+<!-- próximos artigos: duplicar o <td> acima trocando /0 por /1 e /2 -->
+
+</tr>
+</table>
 
 </details>
 
 <img src="assets/neon-divider.svg" width="100%" alt="" />
+
+<a name="spotify"></a>
 
 ## 🎧 Spotify
 
@@ -234,6 +268,8 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 </div>
 
 <img src="assets/neon-divider.svg" width="100%" alt="" />
+
+<a name="contato"></a>
 
 ## 📡 Contato
 
