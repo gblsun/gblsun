@@ -136,10 +136,10 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
       <img src="https://img.shields.io/badge/HTML5-2B213A?style=flat-square&logo=html5&logoColor=E5289E" />
       <img src="https://img.shields.io/badge/CSS3-2B213A?style=flat-square&logo=css3&logoColor=E5289E" />
       <br><br>
-      <a href="https://github.com/gblsun/knowledge-repo/tree/main/Bacharelado%20-%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20IMPACTA/2%20Semestre/tecnicas-de-programacao">
+      <a href="https://github.com/gblsun/knowledge-repo/tree/main/Bacharelado%20-%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20IMPACTA/2%20Semestre/T%C3%A9cnicas%20de%20Programa%C3%A7%C3%A3o">
         <img src="https://img.shields.io/badge/T%C3%A9cnicas%20de%20Programa%C3%A7%C3%A3o-430D3C?style=for-the-badge&logo=python&logoColor=00E5FF" alt="Técnicas de Programação">
       </a>
-      <a href="https://github.com/gblsun/knowledge-repo/tree/main/html%2C%20css/portf%C3%B3lio1">
+      <a href="https://github.com/gblsun/knowledge-repo/tree/main/Projetos%20HTML%20e%20CSS/portf%C3%B3lio1">
         <img src="https://img.shields.io/badge/Portf%C3%B3lio%20Web-430D3C?style=for-the-badge&logo=html5&logoColor=00E5FF" alt="Portfólio Web">
       </a>
     </td>
@@ -172,7 +172,7 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 <div align="center">
 
-<a href="https://github.com/gblsun/knowledge-repo/tree/main/html%2C%20css/site-simples%28fundacao%20bradesco%29">
+<a href="https://github.com/gblsun/knowledge-repo/tree/main/Projetos%20HTML%20e%20CSS/site-simples%28fundacao%20bradesco%29">
   <img src="https://img.shields.io/badge/Site%20Institucional%20·%20Funda%C3%A7%C3%A3o%20Bradesco-2B213A?style=flat-square&logo=html5&logoColor=E5289E" alt="Site Fundação Bradesco">
 </a>
 <a href="https://github.com/gblsun/knowledge-repo/tree/main/ETEC%20Inform%C3%A1tica%20para%20Internet%20ABH/site%20ti%20%C3%A9%20aqui">
