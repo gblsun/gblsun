@@ -178,6 +178,12 @@ Explorando **Microsoft Azure**, **Inteligência Artificial** e **Machine Learnin
       <img src="https://img.shields.io/github/stars/gblsun/knowledge-repo?style=flat-square&logo=github&logoColor=00E5FF&label=Stars&color=2B213A" />
       <img src="https://img.shields.io/github/forks/gblsun/knowledge-repo?style=flat-square&logo=github&logoColor=00E5FF&label=Forks&color=2B213A" />
       <br><br>
+      <a href="https://github.com/gblsun/knowledge-repo/tree/main/Bacharelado%20-%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20IMPACTA/2%20Semestre/T%C3%A9cnicas%20de%20Programa%C3%A7%C3%A3o">
+        <img src="https://img.shields.io/badge/T%C3%A9cnicas%20de%20Programa%C3%A7%C3%A3o-430D3C?style=for-the-badge&logo=python&logoColor=00E5FF" alt="Técnicas de Programação">
+      </a>
+      <a href="https://github.com/gblsun/knowledge-repo/tree/main/Projetos%20HTML%20e%20CSS/portf%C3%B3lio1">
+        <img src="https://img.shields.io/badge/Portf%C3%B3lio%20Web-430D3C?style=for-the-badge&logo=html5&logoColor=00E5FF" alt="Portfólio Web">
+      </a>
       <a href="https://github.com/gblsun/knowledge-repo">
         <img src="https://img.shields.io/badge/Ver%20Repositório-430D3C?style=for-the-badge&logo=github&logoColor=00E5FF" alt="Ver repositório">
       </a>
