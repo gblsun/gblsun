@@ -155,7 +155,7 @@ Explorando **Microsoft Azure**, **Inteligência Artificial** e **Machine Learnin
     <td width="50%" valign="top">
       <h3>🌎 Análise e Projeção de Emissão de CO₂ no Brasil</h3>
       <img src="assets/co2-preview.svg" width="100%" alt="Emissão de CO₂ no Brasil por ano e por setor" />
-      <p>Meu projeto mais completo até aqui: comparação de 6 algoritmos de regressão (Random Forest e KNN atingiram R² > 0,92), projeções de longo prazo e análise setorial das emissões de CO₂ no Brasil.</p>
+      <p>Meu projeto mais completo até aqui, desenvolvido em grupo: comparação de 6 algoritmos de regressão (Random Forest e KNN atingiram R² > 0,92), projeções de longo prazo e análise setorial das emissões de CO₂ no Brasil.</p>
       <img src="https://img.shields.io/badge/Jupyter-2B213A?style=flat-square&logo=jupyter&logoColor=E5289E" />
       <img src="https://img.shields.io/badge/Python-2B213A?style=flat-square&logo=python&logoColor=E5289E" />
       <img src="https://img.shields.io/badge/scikit--learn-2B213A?style=flat-square&logo=scikitlearn&logoColor=E5289E" />
@@ -169,7 +169,8 @@ Explorando **Microsoft Azure**, **Inteligência Artificial** e **Machine Learnin
     </td>
     <td width="50%" valign="top">
       <h3>📚 Knowledge Repo</h3>
-      <p>Repositório com toda a minha trajetória de estudos em Ciência da Computação: técnicas de programação em Python, portfólio web em HTML/CSS e muito mais.</p>
+      <img src="assets/knowledge-repo-preview.png" width="100%" alt="Pipeline de projeção 3D em Computação Gráfica" />
+      <p>Repositório com toda a minha trajetória de estudos em Ciência da Computação: técnicas de programação em Python, portfólio web em HTML/CSS, computação gráfica e muito mais.</p>
       <img src="https://img.shields.io/badge/Python-2B213A?style=flat-square&logo=python&logoColor=E5289E" />
       <img src="https://img.shields.io/badge/HTML5-2B213A?style=flat-square&logo=html5&logoColor=E5289E" />
       <img src="https://img.shields.io/badge/CSS3-2B213A?style=flat-square&logo=css3&logoColor=E5289E" />
@@ -177,11 +178,8 @@ Explorando **Microsoft Azure**, **Inteligência Artificial** e **Machine Learnin
       <img src="https://img.shields.io/github/stars/gblsun/knowledge-repo?style=flat-square&logo=github&logoColor=00E5FF&label=Stars&color=2B213A" />
       <img src="https://img.shields.io/github/forks/gblsun/knowledge-repo?style=flat-square&logo=github&logoColor=00E5FF&label=Forks&color=2B213A" />
       <br><br>
-      <a href="https://github.com/gblsun/knowledge-repo/tree/main/Bacharelado%20-%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20IMPACTA/2%20Semestre/T%C3%A9cnicas%20de%20Programa%C3%A7%C3%A3o">
-        <img src="https://img.shields.io/badge/T%C3%A9cnicas%20de%20Programa%C3%A7%C3%A3o-430D3C?style=for-the-badge&logo=python&logoColor=00E5FF" alt="Técnicas de Programação">
-      </a>
-      <a href="https://github.com/gblsun/knowledge-repo/tree/main/Projetos%20HTML%20e%20CSS/portf%C3%B3lio1">
-        <img src="https://img.shields.io/badge/Portf%C3%B3lio%20Web-430D3C?style=for-the-badge&logo=html5&logoColor=00E5FF" alt="Portfólio Web">
+      <a href="https://github.com/gblsun/knowledge-repo">
+        <img src="https://img.shields.io/badge/Ver%20Repositório-430D3C?style=for-the-badge&logo=github&logoColor=00E5FF" alt="Ver repositório">
       </a>
     </td>
   </tr>
