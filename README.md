@@ -47,6 +47,18 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 </tr>
 </table>
 
+<div align="center">
+
+**🌱 Em foco agora**
+
+Explorando **Microsoft Azure**, **Inteligência Artificial** e **Machine Learning** — aprofundando o lado de Data & Analytics que já vivo na PwC, com o projeto de comparação de modelos preditivos de CO₂ como laboratório prático, enquanto sigo os últimos semestres de Ciência da Computação.
+
+<img src="https://skillicons.dev/icons?i=azure&theme=dark" height="40" alt="Azure" />&nbsp;
+<img src="https://img.shields.io/badge/Intelig%C3%AAncia%20Artificial-2B213A?style=for-the-badge&logoColor=EF8539" alt="Inteligência Artificial" />
+<img src="https://img.shields.io/badge/Machine%20Learning-2B213A?style=for-the-badge&logoColor=EF8539" alt="Machine Learning" />
+
+</div>
+
 <img src="assets/neon-divider.svg" width="100%" alt="" />
 
 <a name="stack"></a>
@@ -118,12 +130,6 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 
 <img src="https://streak-stats.demolab.com/?user=gblsun&theme=synthwave&hide_border=true&background=430D3C" alt="Streak de contribuições" />
 
-<br><br>
-
-**🏆 Troféus**
-
-<img src="https://github-trophies.vercel.app/?username=gblsun&theme=radical&no-frame=true&margin-w=8" alt="Troféus do GitHub" />
-
 </div>
 
 ### 🐍 Grid de Contribuições
@@ -131,6 +137,10 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/gblsun/gblsun/output/github-contribution-grid-snake.svg" alt="Snake percorrendo o gráfico de contribuições" width="100%" />
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=gblsun&bg_color=430D3C&color=00E5FF&line=E5289E&point=FFFFFF&area=true&area_color=00E5FF&hide_border=true&title_color=FFFFFF" alt="Gráfico de atividade no GitHub" width="100%" />
 
 </div>
 
@@ -144,10 +154,14 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
   <tr>
     <td width="50%" valign="top">
       <h3>🌎 Análise e Projeção de Emissão de CO₂ no Brasil</h3>
-      <p>Meu projeto mais completo até aqui: análise exploratória e projeção de emissões de CO₂ no Brasil, com notebooks Jupyter, base de dados tratada e relatórios executivos entregues em HTML, PDF e apresentação.</p>
+      <img src="assets/co2-preview.svg" width="100%" alt="Emissão de CO₂ no Brasil por ano e por setor" />
+      <p>Meu projeto mais completo até aqui: comparação de 6 algoritmos de regressão (Random Forest e KNN atingiram R² > 0,92), projeções de longo prazo e análise setorial das emissões de CO₂ no Brasil.</p>
       <img src="https://img.shields.io/badge/Jupyter-2B213A?style=flat-square&logo=jupyter&logoColor=E5289E" />
       <img src="https://img.shields.io/badge/Python-2B213A?style=flat-square&logo=python&logoColor=E5289E" />
-      <img src="https://img.shields.io/badge/Data%20Analysis-2B213A?style=flat-square&logo=googleanalytics&logoColor=E5289E" />
+      <img src="https://img.shields.io/badge/scikit--learn-2B213A?style=flat-square&logo=scikitlearn&logoColor=E5289E" />
+      <br>
+      <img src="https://img.shields.io/github/stars/gblsun/analise-emissoes-co2-brasil?style=flat-square&logo=github&logoColor=00E5FF&label=Stars&color=2B213A" />
+      <img src="https://img.shields.io/github/forks/gblsun/analise-emissoes-co2-brasil?style=flat-square&logo=github&logoColor=00E5FF&label=Forks&color=2B213A" />
       <br><br>
       <a href="https://github.com/gblsun/analise-emissoes-co2-brasil">
         <img src="https://img.shields.io/badge/Ver%20Repositório-430D3C?style=for-the-badge&logo=github&logoColor=00E5FF" alt="Ver repositório">
@@ -159,6 +173,9 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
       <img src="https://img.shields.io/badge/Python-2B213A?style=flat-square&logo=python&logoColor=E5289E" />
       <img src="https://img.shields.io/badge/HTML5-2B213A?style=flat-square&logo=html5&logoColor=E5289E" />
       <img src="https://img.shields.io/badge/CSS3-2B213A?style=flat-square&logo=css3&logoColor=E5289E" />
+      <br>
+      <img src="https://img.shields.io/github/stars/gblsun/knowledge-repo?style=flat-square&logo=github&logoColor=00E5FF&label=Stars&color=2B213A" />
+      <img src="https://img.shields.io/github/forks/gblsun/knowledge-repo?style=flat-square&logo=github&logoColor=00E5FF&label=Forks&color=2B213A" />
       <br><br>
       <a href="https://github.com/gblsun/knowledge-repo/tree/main/Bacharelado%20-%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20IMPACTA/2%20Semestre/T%C3%A9cnicas%20de%20Programa%C3%A7%C3%A3o">
         <img src="https://img.shields.io/badge/T%C3%A9cnicas%20de%20Programa%C3%A7%C3%A3o-430D3C?style=for-the-badge&logo=python&logoColor=00E5FF" alt="Técnicas de Programação">
@@ -174,6 +191,9 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
       <p>Repositório colaborativo com resolução de exercícios de Algoritmos e Estruturas de Dados — Quick Sort, Merge Sort, recursividade, entre outros — dividido entre os membros da equipe.</p>
       <img src="https://img.shields.io/badge/Java-2B213A?style=flat-square&logo=openjdk&logoColor=E5289E" />
       <img src="https://img.shields.io/badge/Python-2B213A?style=flat-square&logo=python&logoColor=E5289E" />
+      <br>
+      <img src="https://img.shields.io/github/stars/gblsun/algoritmos-e-estruturas-de-dados-impacta?style=flat-square&logo=github&logoColor=00E5FF&label=Stars&color=2B213A" />
+      <img src="https://img.shields.io/github/forks/gblsun/algoritmos-e-estruturas-de-dados-impacta?style=flat-square&logo=github&logoColor=00E5FF&label=Forks&color=2B213A" />
       <br><br>
       <a href="https://github.com/gblsun/algoritmos-e-estruturas-de-dados-impacta">
         <img src="https://img.shields.io/badge/Ver%20Repositório-430D3C?style=for-the-badge&logo=github&logoColor=00E5FF" alt="Ver repositório">
@@ -184,6 +204,9 @@ Meu objetivo é criar soluções tecnológicas que façam a diferença, sempre c
       <p>Sistema de gerenciamento de locadora de filmes desenvolvido como atividade avaliativa de Programação Orientada a Objetos.</p>
       <img src="https://img.shields.io/badge/Java-2B213A?style=flat-square&logo=openjdk&logoColor=E5289E" />
       <img src="https://img.shields.io/badge/POO-2B213A?style=flat-square&logo=codereview&logoColor=E5289E" />
+      <br>
+      <img src="https://img.shields.io/github/stars/gblsun/ProjetoLocadoraFilmes?style=flat-square&logo=github&logoColor=00E5FF&label=Stars&color=2B213A" />
+      <img src="https://img.shields.io/github/forks/gblsun/ProjetoLocadoraFilmes?style=flat-square&logo=github&logoColor=00E5FF&label=Forks&color=2B213A" />
       <br><br>
       <a href="https://github.com/gblsun/ProjetoLocadoraFilmes">
         <img src="https://img.shields.io/badge/Ver%20Repositório-430D3C?style=for-the-badge&logo=github&logoColor=00E5FF" alt="Ver repositório">
