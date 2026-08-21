@@ -126,10 +126,6 @@ Explorando **Microsoft Azure**, **Inteligência Artificial** e **Machine Learnin
 
 <img src="https://github-readme-stats-gblsun1.vercel.app/api/top-langs/?username=gblsun&layout=compact&theme=synthwave&hide_border=true&bg_color=430D3C&langs_count=10" alt="Linguagens mais usadas" />
 
-<br><br>
-
-<img src="https://streak-stats.demolab.com/?user=gblsun&theme=synthwave&hide_border=true&background=430D3C" alt="Streak de contribuições" />
-
 </div>
 
 ### 🐍 Grid de Contribuições
