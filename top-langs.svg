@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="Linguagens mais usadas">
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e5289e"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .fade { opacity: 0; animation: fade .6s ease-out forwards; }
+    @keyframes fade { to { opacity: 1; } }
+  </style>
+  <rect x="1" y="1" width="493" height="193" rx="14" fill="#150a1f" stroke="url(#frame)" stroke-width="1.5"/>
+  <text x="24" y="36" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#00e5ff">Linguagens mais usadas</text>
+  <clipPath id="bar"><rect x="24" y="54" width="447" height="10" rx="5"/></clipPath>
+  <g clip-path="url(#bar)">
+    <rect x="24.00" y="54" width="259.33" height="10" fill="#e5289e"/>
+    <rect x="282.83" y="54" width="80.13" height="10" fill="#00e5ff"/>
+    <rect x="362.46" y="54" width="32.71" height="10" fill="#ef8539"/>
+    <rect x="394.67" y="54" width="26.65" height="10" fill="#b967ff"/>
+    <rect x="420.83" y="54" width="25.07" height="10" fill="#fede5d"/>
+    <rect x="445.40" y="54" width="14.58" height="10" fill="#36f9a0"/>
+    <rect x="459.48" y="54" width="12.02" height="10" fill="#4b3d66"/>
+  </g>
+  <g class="fade" style="animation-delay: 0.00s">
+    <circle cx="29" cy="93" r="5" fill="#e5289e"/>
+    <text x="42" y="98" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#e7dff0">Python</text>
+    <text x="236" y="98" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="13" fill="#8b7d96" text-anchor="end">57,9%</text>
+  </g>
+  <g class="fade" style="animation-delay: 0.10s">
+    <circle cx="265" cy="93" r="5" fill="#00e5ff"/>
+    <text x="278" y="98" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#e7dff0">Java</text>
+    <text x="472" y="98" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="13" fill="#8b7d96" text-anchor="end">17,8%</text>
+  </g>
+  <g class="fade" style="animation-delay: 0.20s">
+    <circle cx="29" cy="119" r="5" fill="#ef8539"/>
+    <text x="42" y="124" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#e7dff0">JavaScript</text>
+    <text x="236" y="124" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="13" fill="#8b7d96" text-anchor="end">7,2%</text>
+  </g>
+  <g class="fade" style="animation-delay: 0.30s">
+    <circle cx="265" cy="119" r="5" fill="#b967ff"/>
+    <text x="278" y="124" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#e7dff0">CSS</text>
+    <text x="472" y="124" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="13" fill="#8b7d96" text-anchor="end">5,9%</text>
+  </g>
+  <g class="fade" style="animation-delay: 0.40s">
+    <circle cx="29" cy="145" r="5" fill="#fede5d"/>
+    <text x="42" y="150" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#e7dff0">C</text>
+    <text x="236" y="150" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="13" fill="#8b7d96" text-anchor="end">5,5%</text>
+  </g>
+  <g class="fade" style="animation-delay: 0.50s">
+    <circle cx="265" cy="145" r="5" fill="#36f9a0"/>
+    <text x="278" y="150" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#e7dff0">SCSS</text>
+    <text x="472" y="150" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="13" fill="#8b7d96" text-anchor="end">3,1%</text>
+  </g>
+  <g class="fade" style="animation-delay: 0.60s">
+    <circle cx="29" cy="171" r="5" fill="#4b3d66"/>
+    <text x="42" y="176" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#e7dff0">Outras</text>
+    <text x="236" y="176" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="13" fill="#8b7d96" text-anchor="end">2,6%</text>
+  </g>
+</svg>
