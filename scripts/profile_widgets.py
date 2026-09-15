@@ -1,33 +1,28 @@
 """Gera os widgets do perfil a partir da API GraphQL do GitHub.
 
 Saídas (em --out): stats.svg, top-langs.svg e activity-graph.svg, publicadas
-no branch `output` pelo workflow. Com --readme, reescreve a lista de atividade
-recente entre os marcadores <!--START_SECTION:activity--> e
-<!--END_SECTION:activity-->.
+no branch `output` pelo workflow.
 
 Uso local:
-    GITHUB_TOKEN=$(gh auth token) python scripts/profile_widgets.py --out dist --readme README.md
+    GITHUB_TOKEN=$(gh auth token) python scripts/profile_widgets.py --out dist
 
-Só usa a biblioteca padrão. Repositórios privados nunca aparecem na lista de
-atividade; com um token que enxerga repos privados, eles entram apenas na soma
-de commits e de linguagens (sem nomes).
+Só usa a biblioteca padrão. Com um token que enxerga repos privados, eles
+entram na soma de commits e de linguagens (sem nomes).
 """
 
 import argparse
 import json
 import math
 import os
-import re
 import urllib.request
-from datetime import datetime, timedelta, timezone
 from html import escape
 from pathlib import Path
 
 USER = "gblsun"
-BRT = timezone(timedelta(hours=-3))  # o Brasil não tem horário de verão desde 2019
-RECENT_DAYS = 30
 GRAPH_DAYS = 31
-MAX_ACTIVITY_ITEMS = 8
+# Notebooks com saídas embutidas e relatórios HTML exportados somam megabytes
+# e escondem o código de verdade no card de linguagens
+EXCLUDED_LANGUAGES = {"Jupyter Notebook", "HTML"}
 
 # Mesma paleta do README (terminal-about.svg e co2-preview.svg)
 BG = "#150a1f"
@@ -43,7 +38,7 @@ SANS = "'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif"
 MONO = "Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace"
 
 QUERY = """
-query ($login: String!, $from: DateTime!, $to: DateTime!) {
+query ($login: String!) {
   user(login: $login) {
     contributionsCollection {
       totalCommitContributions
@@ -51,12 +46,6 @@ query ($login: String!, $from: DateTime!, $to: DateTime!) {
       contributionCalendar {
         totalContributions
         weeks { contributionDays { date contributionCount } }
-      }
-    }
-    recent: contributionsCollection(from: $from, to: $to) {
-      commitContributionsByRepository(maxRepositories: 10) {
-        repository { nameWithOwner url isPrivate }
-        contributions(first: 100) { nodes { occurredAt commitCount } }
       }
     }
     repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
@@ -68,17 +57,7 @@ query ($login: String!, $from: DateTime!, $to: DateTime!) {
         }
       }
     }
-    recentRepos: repositories(first: 10, ownerAffiliations: OWNER, privacy: PUBLIC,
-                              orderBy: {field: CREATED_AT, direction: DESC}) {
-      nodes { nameWithOwner url createdAt isFork parent { nameWithOwner url isPrivate } }
-    }
-    starredRepositories(first: 5, orderBy: {field: STARRED_AT, direction: DESC}) {
-      edges { starredAt node { nameWithOwner url isPrivate } }
-    }
-    pullRequests(first: 5, orderBy: {field: CREATED_AT, direction: DESC}) {
-      totalCount
-      nodes { title url createdAt repository { nameWithOwner url isPrivate } }
-    }
+    pullRequests { totalCount }
     repositoriesContributedTo(contributionTypes: [COMMIT, PULL_REQUEST, ISSUE]) { totalCount }
   }
 }
@@ -100,10 +79,6 @@ def graphql(token, variables):
     if payload.get("errors"):
         raise SystemExit(f"Erro na API GraphQL: {payload['errors']}")
     return payload["data"]["user"]
-
-
-def parse_date(value):
-    return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
 
 def fmt_number(value):
@@ -173,7 +148,8 @@ def top_langs_svg(user, limit=6):
     for repo in user["repositories"]["nodes"]:
         for edge in repo["languages"]["edges"]:
             name = edge["node"]["name"]
-            totals[name] = totals.get(name, 0) + edge["size"]
+            if name not in EXCLUDED_LANGUAGES:
+                totals[name] = totals.get(name, 0) + edge["size"]
     grand_total = sum(totals.values()) or 1
     ranked = sorted(totals.items(), key=lambda item: item[1], reverse=True)
     items = [(name, size, LANG_COLORS[i]) for i, (name, size) in enumerate(ranked[:limit])]
@@ -262,80 +238,16 @@ def activity_svg(user, days=GRAPH_DAYS):
     return card(width, height, f"Contribuições nos últimos {days} dias", "\n".join(body), draw_style)
 
 
-def repo_link(repo):
-    owner, _, name = repo["nameWithOwner"].partition("/")
-    label = name if owner == USER else repo["nameWithOwner"]
-    return f"[{label}]({repo['url']})"
-
-
-def recent_activity(user, now):
-    since = now - timedelta(days=RECENT_DAYS)
-    events = []
-
-    for item in user["recent"]["commitContributionsByRepository"]:
-        repo, nodes = item["repository"], item["contributions"]["nodes"]
-        if repo["isPrivate"] or not nodes:
-            continue
-        commits = sum(node["commitCount"] for node in nodes)
-        last = max(parse_date(node["occurredAt"]) for node in nodes)
-        events.append((last, f"🔨 {commits} commit{'s' if commits != 1 else ''} em {repo_link(repo)}"))
-
-    for repo in user["recentRepos"]["nodes"]:
-        created = parse_date(repo["createdAt"])
-        if created < since:
-            continue
-        if repo["isFork"] and repo["parent"] and not repo["parent"]["isPrivate"]:
-            events.append((created, f"🍴 Fork de {repo_link(repo['parent'])}"))
-        elif not repo["isFork"]:
-            events.append((created, f"✨ Criou o repositório {repo_link(repo)}"))
-
-    for edge in user["starredRepositories"]["edges"]:
-        starred, repo = parse_date(edge["starredAt"]), edge["node"]
-        if starred >= since and not repo["isPrivate"] and repo["nameWithOwner"] != f"{USER}/{USER}":
-            events.append((starred, f"⭐ Deu estrela em {repo_link(repo)}"))
-
-    for pr in user["pullRequests"]["nodes"]:
-        created, repo = parse_date(pr["createdAt"]), pr["repository"]
-        if created >= since and not repo["isPrivate"]:
-            events.append((created, f"🔀 Abriu o PR [{escape(pr['title'])}]({pr['url']}) em {repo_link(repo)}"))
-
-    events.sort(key=lambda event: event[0], reverse=True)
-    lines = [f"- `{when.astimezone(BRT):%d/%m}` {text}" for when, text in events[:MAX_ACTIVITY_ITEMS]]
-    return lines or [f"- Nenhuma atividade pública nos últimos {RECENT_DAYS} dias."]
-
-
-def update_readme(path, lines):
-    with open(path, encoding="utf-8", newline="") as file:
-        text = file.read()
-    newline = "\r\n" if "\r\n" in text else "\n"
-    block = newline.join(["<!--START_SECTION:activity-->", *lines, "<!--END_SECTION:activity-->"])
-    updated, count = re.subn(
-        r"<!--START_SECTION:activity-->.*?<!--END_SECTION:activity-->", lambda _: block, text, flags=re.S
-    )
-    if count == 0:
-        raise SystemExit(f"Marcadores de atividade não encontrados em {path}")
-    if updated != text:
-        with open(path, "w", encoding="utf-8", newline="") as file:
-            file.write(updated)
-    print(f"{path}: {'atualizado' if updated != text else 'sem mudanças'}")
-
-
 def main():
-    parser = argparse.ArgumentParser(description="Gera os widgets SVG e a atividade recente do perfil.")
+    parser = argparse.ArgumentParser(description="Gera os widgets SVG do perfil.")
     parser.add_argument("--out", type=Path, required=True, help="pasta onde os SVGs serão gravados")
-    parser.add_argument("--readme", type=Path, help="README a ter a seção de atividade reescrita")
     args = parser.parse_args()
 
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     if not token:
         raise SystemExit("Defina GITHUB_TOKEN (localmente: GITHUB_TOKEN=$(gh auth token)).")
 
-    now = datetime.now(timezone.utc)
-    user = graphql(token, {
-        "login": USER,
-        "from": (now - timedelta(days=RECENT_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "to": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
-    })
+    user = graphql(token, {"login": USER})
 
     args.out.mkdir(parents=True, exist_ok=True)
     for name, svg in (
@@ -345,9 +257,6 @@ def main():
     ):
         (args.out / name).write_text(svg, encoding="utf-8", newline="\n")
         print(f"{args.out / name}: gerado")
-
-    if args.readme:
-        update_readme(args.readme, recent_activity(user, now))
 
 
 if __name__ == "__main__":
