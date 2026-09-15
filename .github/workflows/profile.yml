@@ -1,0 +1,58 @@
+name: gerar widgets do perfil
+
+on:
+  # Executa automaticamente a cada 24 horas
+  schedule:
+    - cron: "0 */24 * * *"
+
+  # Permite execução manual
+  workflow_dispatch:
+
+  # Roda em cada push na branch main
+  push:
+    branches:
+    - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Gerar a animação da cobra
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#00e5ff&color_dots=#2b213a,#430d3c,#a01e6b,#e5289e,#ef8539
+
+      - name: Configurar o Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Gerar stats, linguagens, gráfico de atividade e atividade recente
+        env:
+          # PROFILE_TOKEN é opcional: um PAT com escopo `repo` inclui os repos privados nas somas
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python scripts/profile_widgets.py --out dist --readme README.md
+
+      - name: Publicar os SVGs na branch output
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commitar a atividade recente no README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || (git commit -m "Update recent activity" && git pull --rebase && git push)

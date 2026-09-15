@@ -1,0 +1,74 @@
+<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" role="img" aria-label="Linha do tempo: 2023 ETEC, 2024 Faculdade Impacta, 2025 PwC, 2026 sexto semestre">
+  <defs>
+    <linearGradient id="frameGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e5289e"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" gradientUnits="userSpaceOnUse" x1="112" y1="0" x2="787" y2="0">
+      <stop offset="0%" stop-color="#e5289e"/>
+      <stop offset="35%" stop-color="#b967ff"/>
+      <stop offset="68%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#ef8539"/>
+    </linearGradient>
+    <filter id="glow" filterUnits="userSpaceOnUse" x="80" y="100" width="740" height="40">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="897" height="257" rx="14" fill="#150a1f" stroke="url(#frameGrad)" stroke-width="1.6"/>
+  <text x="28" y="38" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#8b7d96"><tspan fill="#00e5ff">$</tspan> git log --reverse --oneline trajetoria</text>
+
+  <line x1="112" y1="120" x2="787" y2="120" stroke="#430d3c" stroke-width="3" stroke-linecap="round"/>
+  <line x1="112" y1="120" x2="787" y2="120" stroke="url(#lineGrad)" stroke-width="6" stroke-opacity="0.55" filter="url(#glow)" stroke-dasharray="675" stroke-dashoffset="675">
+    <animate attributeName="stroke-dashoffset" from="675" to="0" begin="0.3s" dur="2.4s" fill="freeze"/>
+  </line>
+  <line x1="112" y1="120" x2="787" y2="120" stroke="url(#lineGrad)" stroke-width="3" stroke-linecap="round" stroke-dasharray="675" stroke-dashoffset="675">
+    <animate attributeName="stroke-dashoffset" from="675" to="0" begin="0.3s" dur="2.4s" fill="freeze"/>
+  </line>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.4s" fill="freeze"/>
+    <text x="112" y="96" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="24" font-weight="700" fill="#e5289e">2023</text>
+    <circle cx="112" cy="120" r="11" fill="#150a1f" stroke="#e5289e" stroke-width="2"/>
+    <circle cx="112" cy="120" r="5" fill="#e5289e"/>
+    <text x="112" y="160" text-anchor="middle" font-size="16" font-weight="600" fill="#e7dff0">ETEC</text>
+    <text x="112" y="184" text-anchor="middle" font-size="13" fill="#b9aec6">Técnico em Informática</text>
+    <text x="112" y="202" text-anchor="middle" font-size="13" fill="#b9aec6">para Internet</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.4s" fill="freeze"/>
+    <text x="337" y="96" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="24" font-weight="700" fill="#b967ff">2024</text>
+    <circle cx="337" cy="120" r="11" fill="#150a1f" stroke="#b967ff" stroke-width="2"/>
+    <circle cx="337" cy="120" r="5" fill="#b967ff"/>
+    <text x="337" y="160" text-anchor="middle" font-size="16" font-weight="600" fill="#e7dff0">Faculdade Impacta</text>
+    <text x="337" y="184" text-anchor="middle" font-size="13" fill="#b9aec6">Início do Bacharelado em</text>
+    <text x="337" y="202" text-anchor="middle" font-size="13" fill="#b9aec6">Ciência da Computação</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.9s" dur="0.4s" fill="freeze"/>
+    <text x="562" y="96" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="24" font-weight="700" fill="#00e5ff">2025</text>
+    <circle cx="562" cy="120" r="11" fill="#150a1f" stroke="#00e5ff" stroke-width="2"/>
+    <circle cx="562" cy="120" r="5" fill="#00e5ff"/>
+    <text x="562" y="160" text-anchor="middle" font-size="16" font-weight="600" fill="#e7dff0">PwC</text>
+    <text x="562" y="184" text-anchor="middle" font-size="13" fill="#b9aec6">Data &amp; Analytics Intern</text>
+    <text x="562" y="202" text-anchor="middle" font-size="13" fill="#b9aec6">Advisory Consulting</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.4s" fill="freeze"/>
+    <text x="787" y="96" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="24" font-weight="700" fill="#ef8539">2026</text>
+    <circle cx="787" cy="120" r="11" fill="none" stroke="#ef8539" stroke-width="2">
+      <animate attributeName="r" values="11;24" dur="1.8s" begin="3.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0" dur="1.8s" begin="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="787" cy="120" r="11" fill="#150a1f" stroke="#ef8539" stroke-width="2"/>
+    <circle cx="787" cy="120" r="5" fill="#ef8539"/>
+    <text x="787" y="160" text-anchor="middle" font-size="16" font-weight="600" fill="#e7dff0">6º semestre</text>
+    <text x="787" y="184" text-anchor="middle" font-size="13" fill="#b9aec6">Compiladores (MiniC) e</text>
+    <text x="787" y="202" text-anchor="middle" font-size="13" fill="#b9aec6">Computação Gráfica 3D</text>
+    <circle cx="764" cy="229" r="3.5" fill="#ef8539"/>
+    <text x="774" y="233" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#ef8539">agora</text>
+  </g>
+</svg>
