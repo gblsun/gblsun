@@ -359,7 +359,7 @@ Explorando **Microsoft Azure**, **Inteligência Artificial** e **Machine Learnin
 <div align="center">
 
 <a href="https://open.spotify.com/user/gabriel.mp13?si=e32b7dde6a554500" target="_blank">
-  <img src="https://raw.githubusercontent.com/gblsun/gblsun/output/spotify.svg" width="86%" alt="Faixas mais ouvidas no Spotify" />
+  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=gabriel.mp13&cover_image=true&theme=default&show_offline=false&mode=dark&background_color=101521&bar_color=FF4FD8&bar_color_cover=false&border_radius=14&interchange=false" width="320" alt="Tocando agora no Spotify, com a capa do álbum" />
 </a>
 
 <br><br>

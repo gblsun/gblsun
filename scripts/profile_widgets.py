@@ -1,16 +1,11 @@
 """Gera os widgets do perfil a partir da API GraphQL do GitHub.
 
-Saídas (em --out): banner.svg, stats.svg, top-langs.svg, activity-graph.svg,
-medium.svg e spotify.svg, publicadas no branch `output` pelo workflow.
+Saídas (em --out): banner.svg, banner-en.svg, stats.svg, top-langs.svg,
+activity-graph.svg e medium.svg, publicadas no branch `output` pelo workflow.
+O card do Spotify vem do widget do kittinan, direto no README.
 
 Uso local:
     GITHUB_TOKEN=$(gh auth token) python scripts/profile_widgets.py --out dist
-
-O card do Spotify só mostra dados com os três secrets abaixo; sem eles vira um
-card fixo apontando para o perfil, e nunca uma imagem quebrada:
-    SPOTIFY_CLIENT_ID / SPOTIFY_CLIENT_SECRET  do app em developer.spotify.com
-    SPOTIFY_REFRESH_TOKEN                      de um code trocado no escopo
-                                               user-top-read
 
 Fora o Pillow (só para recortar a textura do banner), usa apenas a biblioteca
 padrão. Com um token que enxerga repos privados, eles entram na soma de commits
@@ -18,12 +13,10 @@ e de linguagens (sem nomes).
 """
 
 import argparse
-import base64
 import json
 import math
 import os
 import re
-import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
@@ -435,7 +428,6 @@ def banner_svg(user, lang="pt"):
 
 
 MEDIUM_FEED = "https://medium.com/feed/@Gabriel.mp13"
-SPOTIFY_PROFILE = "https://open.spotify.com/user/gabriel.mp13"
 CARD_W = 760
 MESES = ("jan", "fev", "mar", "abr", "mai", "jun",
          "jul", "ago", "set", "out", "nov", "dez")
@@ -520,61 +512,6 @@ def medium_svg():
     return card(CARD_W, y + 6, "Últimas publicações no Medium", "\n".join(rows))
 
 
-def spotify_top():
-    """Faixas mais ouvidas. Precisa dos três secrets; sem eles devolve None."""
-    client = os.environ.get("SPOTIFY_CLIENT_ID")
-    secret = os.environ.get("SPOTIFY_CLIENT_SECRET")
-    refresh = os.environ.get("SPOTIFY_REFRESH_TOKEN")
-    if not (client and secret and refresh):
-        return None
-    try:
-        basic = base64.b64encode(f"{client}:{secret}".encode()).decode()
-        token = json.loads(fetch(
-            "https://accounts.spotify.com/api/token",
-            {"Authorization": f"Basic {basic}",
-             "Content-Type": "application/x-www-form-urlencoded"},
-            urllib.parse.urlencode({"grant_type": "refresh_token",
-                                    "refresh_token": refresh}).encode(),
-        ))["access_token"]
-        payload = json.loads(fetch(
-            "https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=short_term",
-            {"Authorization": f"Bearer {token}"},
-        ))
-    except Exception as error:
-        print(f"  spotify: API indisponível ({error})")
-        return None
-    return [(item["name"], ", ".join(artist["name"] for artist in item["artists"]))
-            for item in payload.get("items", [])]
-
-
-def spotify_svg():
-    tracks = spotify_top()
-    if not tracks:
-        # Sem os secrets o card não fica quebrado: vira um convite ao perfil.
-        # Para ligar os dados, ver o cabeçalho deste arquivo.
-        body = (
-            f'  <text x="24" y="84" font-family="{SANS}" font-size="14" fill="{TEXT}">'
-            "Hyperpop, glitch e eletrônica em rotação.</text>\n"
-            f'  <text x="24" y="108" font-family="{SANS}" font-size="13" fill="{MUTED}">'
-            f"{escape(SPOTIFY_PROFILE.replace('https://', ''))}</text>"
-        )
-        return card(CARD_W, 140, "No meu fone agora", body)
-
-    rows = []
-    for index, (name, artists) in enumerate(tracks):
-        y = 80 + index * 30
-        color = CYAN if index % 2 == 0 else PINK
-        rows.append(
-            f'  <g class="fade" style="animation-delay: {0.1 * index:.2f}s">\n'
-            f'    <rect x="24" y="{y - 13}" width="4" height="16" rx="2" fill="{color}"/>\n'
-            f'    <text x="40" y="{y}" font-family="{SANS}" font-size="14" fill="{TEXT}">'
-            f"{escape(wrap(name, 44)[0])}</text>\n"
-            f'    <text x="{CARD_W - 24}" y="{y}" font-family="{MONO}" font-size="12"'
-            f' fill="{MUTED}" text-anchor="end">{escape(wrap(artists, 34)[0])}</text>\n'
-            f"  </g>"
-        )
-    return card(CARD_W, 80 + len(tracks) * 30 + 22, "Mais ouvidas nas últimas 4 semanas",
-                "\n".join(rows))
 
 
 def main():
@@ -596,7 +533,6 @@ def main():
         ("top-langs.svg", top_langs_svg(user)),
         ("activity-graph.svg", activity_svg(user)),
         ("medium.svg", medium_svg()),
-        ("spotify.svg", spotify_svg()),
     ):
         (args.out / name).write_text(svg, encoding="utf-8", newline="\n")
         print(f"{args.out / name}: gerado")

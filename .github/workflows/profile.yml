@@ -41,14 +41,10 @@ jobs:
       - name: Instalar o Pillow
         run: pip install --disable-pip-version-check --quiet pillow
 
-      - name: Gerar banner, stats, linguagens, atividade, Medium e Spotify
+      - name: Gerar banner, stats, linguagens, atividade e Medium
         env:
           # PROFILE_TOKEN é opcional: um PAT com escopo `repo` inclui os repos privados nas somas
           GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
-          # Opcionais: sem eles o card do Spotify vira um card fixo, não quebra
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
         run: python scripts/profile_widgets.py --out dist
 
       - name: Publicar os SVGs na branch output
