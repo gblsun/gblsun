@@ -1,0 +1,29 @@
+name: conferir o README
+
+# Separado do workflow dos widgets de propósito: um problema no README não pode
+# impedir a geração diária do banner e dos cards, e vice-versa.
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v5
+
+      - name: Configurar o Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      # Só biblioteca padrão: não precisa instalar nada
+      - name: Conferir o README e os assets
+        run: python scripts/check_readme.py --tudo

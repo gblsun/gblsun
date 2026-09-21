@@ -1,17 +1,18 @@
 name: gerar widgets do perfil
 
 on:
-  # Executa automaticamente a cada 24 horas
+  # Uma vez por dia, 05:00 UTC (02:00 em Brasília)
   schedule:
-    - cron: "0 */24 * * *"
+    - cron: "0 5 * * *"
 
   # Permite execução manual
   workflow_dispatch:
 
-  # Roda em cada push na branch main
+  # Roda em cada push na branch principal (este repo usa master, o gblsun/gblsun usa main)
   push:
     branches:
     - main
+    - master
 
 jobs:
   generate:
@@ -29,17 +30,25 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#00e5ff&color_dots=#2b213a,#430d3c,#a01e6b,#e5289e,#ef8539
+            dist/github-contribution-grid-snake.svg?color_snake=#58f7ff&color_dots=#101521,#2b3950,#8b7cff,#ff4fd8,#58f7ff
+            dist/github-contribution-grid-snake-light.svg?color_snake=#6b4be0&color_dots=#eef2f8,#c9d6ea,#8b7cff,#e02bb8,#0e9fb8
 
       - name: Configurar o Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
-      - name: Gerar stats, linguagens e gráfico de atividade
+      - name: Instalar o Pillow
+        run: pip install --disable-pip-version-check --quiet pillow
+
+      - name: Gerar banner, stats, linguagens, atividade, Medium e Spotify
         env:
           # PROFILE_TOKEN é opcional: um PAT com escopo `repo` inclui os repos privados nas somas
           GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          # Opcionais: sem eles o card do Spotify vira um card fixo, não quebra
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
         run: python scripts/profile_widgets.py --out dist
 
       - name: Publicar os SVGs na branch output

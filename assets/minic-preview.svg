@@ -1,27 +1,36 @@
 <svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, 'Courier New', monospace" role="img" aria-label="Lexer MiniC transformando o arquivo valido_soma.mc em tokens">
   <defs>
     <linearGradient id="frameGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#e5289e"/>
-      <stop offset="100%" stop-color="#00e5ff"/>
+      <stop offset="0%" stop-color="#FF4FD8"/>
+      <stop offset="100%" stop-color="#58F7FF"/>
     </linearGradient>
   </defs>
 
-  <rect x="1.5" y="1.5" width="637" height="297" rx="14" fill="#150a1f" stroke="url(#frameGrad)" stroke-width="1.6"/>
-  <path d="M1.5 15.5 A14 14 0 0 1 15.5 1.5 H624.5 A14 14 0 0 1 638.5 15.5 V32 H1.5 Z" fill="#20102b"/>
-  <line x1="1.5" y1="32" x2="638.5" y2="32" stroke="#430d3c" stroke-width="1"/>
+  <!-- Os tokens já nascem visíveis: a animação só os traz em cascata. Antes
+       ficavam em opacity 0 até 3s, e a coluna da direita aparecia vazia para
+       quem pegasse a imagem antes disso. -->
+  <style>
+    .tk { animation: reveal .22s ease-out backwards; }
+    @keyframes reveal { from { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .tk { animation: none; } }
+  </style>
 
-  <circle cx="22" cy="16" r="6" fill="#ff5f56"/>
-  <circle cx="42" cy="16" r="6" fill="#ffbd2e"/>
-  <circle cx="62" cy="16" r="6" fill="#27c93f"/>
-  <text x="320" y="20" text-anchor="middle" font-size="12" fill="#8b7d96">minic-compiler — analisador léxico</text>
+  <rect x="1.5" y="1.5" width="637" height="297" rx="14" fill="#101521" stroke="url(#frameGrad)" stroke-width="1.6"/>
+  <path d="M1.5 15.5 A14 14 0 0 1 15.5 1.5 H624.5 A14 14 0 0 1 638.5 15.5 V32 H1.5 Z" fill="#1B2433"/>
+  <line x1="1.5" y1="32" x2="638.5" y2="32" stroke="#2B3950" stroke-width="1"/>
 
-  <text x="24" y="58" font-size="13" fill="#e7dff0"><tspan fill="#00e5ff">$</tspan> python src/python/main.py tests/inputs/valido_soma.mc</text>
-  <line x1="1.5" y1="72" x2="638.5" y2="72" stroke="#430d3c" stroke-width="1"/>
-  <line x1="330" y1="72" x2="330" y2="298" stroke="#430d3c" stroke-width="1"/>
+  <circle cx="22" cy="16" r="6" fill="#FF4FD8"/>
+  <circle cx="42" cy="16" r="6" fill="#FFC857"/>
+  <circle cx="62" cy="16" r="6" fill="#58F7FF"/>
+  <text x="320" y="20" text-anchor="middle" font-size="12" fill="#7C8CA5">minic-compiler — analisador léxico</text>
 
-  <text x="24" y="92" font-size="11" fill="#8b7d96">valido_soma.mc</text>
+  <text x="24" y="58" font-size="13" fill="#E8EEF5"><tspan fill="#58F7FF">$</tspan> python src/python/main.py tests/inputs/valido_soma.mc</text>
+  <line x1="1.5" y1="72" x2="638.5" y2="72" stroke="#2B3950" stroke-width="1"/>
+  <line x1="330" y1="72" x2="330" y2="298" stroke="#2B3950" stroke-width="1"/>
+
+  <text x="24" y="92" font-size="11" fill="#7C8CA5">valido_soma.mc</text>
   <!-- indentação por posição x (48 = coluna 0, 77 = 4 espaços), pois os navegadores ignoram xml:space -->
-  <g font-size="13" fill="#5a4a6a">
+  <g font-size="13" fill="#3C4A60">
     <text x="24" y="116">1</text>
     <text x="24" y="137">2</text>
     <text x="24" y="158">3</text>
@@ -31,37 +40,37 @@
     <text x="24" y="242">7</text>
     <text x="24" y="263">8</text>
   </g>
-  <g font-size="13" fill="#e7dff0">
-    <text x="48" y="116"><tspan fill="#e5289e">int</tspan> soma<tspan fill="#8b7d96">(</tspan><tspan fill="#e5289e">int</tspan> a<tspan fill="#8b7d96">,</tspan> <tspan fill="#e5289e">int</tspan> b<tspan fill="#8b7d96">) {</tspan></text>
-    <text x="77" y="137"><tspan fill="#e5289e">return</tspan> a <tspan fill="#8b7d96">+</tspan> b<tspan fill="#8b7d96">;</tspan></text>
-    <text x="48" y="158" fill="#8b7d96">}</text>
-    <text x="48" y="179"><tspan fill="#e5289e">int</tspan> main<tspan fill="#8b7d96">() {</tspan></text>
-    <text x="77" y="200"><tspan fill="#e5289e">int</tspan> valores<tspan fill="#8b7d96">[</tspan><tspan fill="#ef8539">3</tspan><tspan fill="#8b7d96">];</tspan></text>
-    <text x="77" y="221"><tspan fill="#e5289e">int</tspan> i<tspan fill="#8b7d96">;</tspan></text>
-    <text x="77" y="242"><tspan fill="#e5289e">int</tspan> total <tspan fill="#8b7d96">=</tspan> <tspan fill="#ef8539">0</tspan><tspan fill="#8b7d96">;</tspan></text>
-    <text x="77" y="263"><tspan fill="#e5289e">for</tspan> <tspan fill="#8b7d96">(</tspan>i <tspan fill="#8b7d96">=</tspan> <tspan fill="#ef8539">0</tspan><tspan fill="#8b7d96">;</tspan> i <tspan fill="#8b7d96">&lt;</tspan> <tspan fill="#ef8539">3</tspan><tspan fill="#8b7d96">; …</tspan></text>
+  <g font-size="13" fill="#E8EEF5">
+    <text x="48" y="116"><tspan fill="#FF4FD8">int</tspan> soma<tspan fill="#7C8CA5">(</tspan><tspan fill="#FF4FD8">int</tspan> a<tspan fill="#7C8CA5">,</tspan> <tspan fill="#FF4FD8">int</tspan> b<tspan fill="#7C8CA5">) {</tspan></text>
+    <text x="77" y="137"><tspan fill="#FF4FD8">return</tspan> a <tspan fill="#7C8CA5">+</tspan> b<tspan fill="#7C8CA5">;</tspan></text>
+    <text x="48" y="158" fill="#7C8CA5">}</text>
+    <text x="48" y="179"><tspan fill="#FF4FD8">int</tspan> main<tspan fill="#7C8CA5">() {</tspan></text>
+    <text x="77" y="200"><tspan fill="#FF4FD8">int</tspan> valores<tspan fill="#7C8CA5">[</tspan><tspan fill="#FFC857">3</tspan><tspan fill="#7C8CA5">];</tspan></text>
+    <text x="77" y="221"><tspan fill="#FF4FD8">int</tspan> i<tspan fill="#7C8CA5">;</tspan></text>
+    <text x="77" y="242"><tspan fill="#FF4FD8">int</tspan> total <tspan fill="#7C8CA5">=</tspan> <tspan fill="#FFC857">0</tspan><tspan fill="#7C8CA5">;</tspan></text>
+    <text x="77" y="263"><tspan fill="#FF4FD8">for</tspan> <tspan fill="#7C8CA5">(</tspan>i <tspan fill="#7C8CA5">=</tspan> <tspan fill="#FFC857">0</tspan><tspan fill="#7C8CA5">;</tspan> i <tspan fill="#7C8CA5">&lt;</tspan> <tspan fill="#FFC857">3</tspan><tspan fill="#7C8CA5">; …</tspan></text>
   </g>
 
-  <text x="350" y="92" font-size="11" fill="#8b7d96">stdout · tokens</text>
+  <text x="350" y="92" font-size="11" fill="#7C8CA5">stdout · tokens</text>
   <g font-size="13">
-    <text x="350" y="116" fill="#e5289e" opacity="0">KW_INT<animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.2s" fill="freeze"/></text>
-    <text x="350" y="137" fill="#00e5ff" opacity="0">&lt;IDENT, <tspan fill="#e7dff0">soma</tspan>&gt;<animate attributeName="opacity" from="0" to="1" begin="0.55s" dur="0.2s" fill="freeze"/></text>
-    <text x="350" y="158" fill="#b9aec6" opacity="0">LPAREN<animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.2s" fill="freeze"/></text>
-    <text x="350" y="179" fill="#e5289e" opacity="0">KW_INT<animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.2s" fill="freeze"/></text>
-    <text x="350" y="200" fill="#00e5ff" opacity="0">&lt;IDENT, <tspan fill="#e7dff0">a</tspan>&gt;<animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.2s" fill="freeze"/></text>
-    <text x="350" y="221" fill="#b9aec6" opacity="0">COMMA<animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.2s" fill="freeze"/></text>
-    <text x="350" y="242" fill="#e5289e" opacity="0">KW_INT<animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.2s" fill="freeze"/></text>
-    <text x="350" y="263" fill="#00e5ff" opacity="0">&lt;IDENT, <tspan fill="#e7dff0">b</tspan>&gt;<animate attributeName="opacity" from="0" to="1" begin="1.45s" dur="0.2s" fill="freeze"/></text>
+    <text x="350" y="116" fill="#FF4FD8" class="tk" style="animation-delay:0.08s">KW_INT</text>
+    <text x="350" y="137" fill="#58F7FF" class="tk" style="animation-delay:0.12s">&lt;IDENT, <tspan fill="#E8EEF5">soma</tspan>&gt;</text>
+    <text x="350" y="158" fill="#A9B8CC" class="tk" style="animation-delay:0.17s">LPAREN</text>
+    <text x="350" y="179" fill="#FF4FD8" class="tk" style="animation-delay:0.21s">KW_INT</text>
+    <text x="350" y="200" fill="#58F7FF" class="tk" style="animation-delay:0.26s">&lt;IDENT, <tspan fill="#E8EEF5">a</tspan>&gt;</text>
+    <text x="350" y="221" fill="#A9B8CC" class="tk" style="animation-delay:0.30s">COMMA</text>
+    <text x="350" y="242" fill="#FF4FD8" class="tk" style="animation-delay:0.35s">KW_INT</text>
+    <text x="350" y="263" fill="#58F7FF" class="tk" style="animation-delay:0.39s">&lt;IDENT, <tspan fill="#E8EEF5">b</tspan>&gt;</text>
 
-    <text x="490" y="116" fill="#b9aec6" opacity="0">RPAREN<animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.2s" fill="freeze"/></text>
-    <text x="490" y="137" fill="#b9aec6" opacity="0">LBRACE<animate attributeName="opacity" from="0" to="1" begin="1.75s" dur="0.2s" fill="freeze"/></text>
-    <text x="490" y="158" fill="#e5289e" opacity="0">KW_RETURN<animate attributeName="opacity" from="0" to="1" begin="1.9s" dur="0.2s" fill="freeze"/></text>
-    <text x="490" y="179" fill="#00e5ff" opacity="0">&lt;IDENT, <tspan fill="#e7dff0">a</tspan>&gt;<animate attributeName="opacity" from="0" to="1" begin="2.05s" dur="0.2s" fill="freeze"/></text>
-    <text x="490" y="200" fill="#b9aec6" opacity="0">PLUS<animate attributeName="opacity" from="0" to="1" begin="2.2s" dur="0.2s" fill="freeze"/></text>
-    <text x="490" y="221" fill="#00e5ff" opacity="0">&lt;IDENT, <tspan fill="#e7dff0">b</tspan>&gt;<animate attributeName="opacity" from="0" to="1" begin="2.35s" dur="0.2s" fill="freeze"/></text>
-    <text x="490" y="242" fill="#b9aec6" opacity="0">SEMICOLON<animate attributeName="opacity" from="0" to="1" begin="2.5s" dur="0.2s" fill="freeze"/></text>
-    <text x="490" y="263" fill="#b9aec6" opacity="0">RBRACE<animate attributeName="opacity" from="0" to="1" begin="2.65s" dur="0.2s" fill="freeze"/></text>
+    <text x="490" y="116" fill="#A9B8CC" class="tk" style="animation-delay:0.44s">RPAREN</text>
+    <text x="490" y="137" fill="#A9B8CC" class="tk" style="animation-delay:0.49s">LBRACE</text>
+    <text x="490" y="158" fill="#FF4FD8" class="tk" style="animation-delay:0.53s">KW_RETURN</text>
+    <text x="490" y="179" fill="#58F7FF" class="tk" style="animation-delay:0.57s">&lt;IDENT, <tspan fill="#E8EEF5">a</tspan>&gt;</text>
+    <text x="490" y="200" fill="#A9B8CC" class="tk" style="animation-delay:0.62s">PLUS</text>
+    <text x="490" y="221" fill="#58F7FF" class="tk" style="animation-delay:0.67s">&lt;IDENT, <tspan fill="#E8EEF5">b</tspan>&gt;</text>
+    <text x="490" y="242" fill="#A9B8CC" class="tk" style="animation-delay:0.71s">SEMICOLON</text>
+    <text x="490" y="263" fill="#A9B8CC" class="tk" style="animation-delay:0.75s">RBRACE</text>
   </g>
 
-  <text x="620" y="287" text-anchor="end" font-size="11" fill="#27c93f" opacity="0">exit 0 · sem erros léxicos<animate attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.3s" fill="freeze"/></text>
+  <text x="620" y="287" text-anchor="end" font-size="11" fill="#58F7FF" class="tk" style="animation-delay:0.86s">exit 0 · sem erros léxicos</text>
 </svg>
