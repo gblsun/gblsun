@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="Linguagens mais usadas">
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF4FD8"/>
+      <stop offset="100%" stop-color="#58F7FF"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .fade { opacity: 0; animation: fade .6s ease-out forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    /* Sem isto, quem desliga animação veria o card vazio: o conteúdo nasce em
+       opacity 0 e só a animação o revela. */
+    @media (prefers-reduced-motion: reduce) {
+      .fade { opacity: 1; animation: none; }
+      .ring, .draw { stroke-dashoffset: 0; animation: none; }
+    }
+  </style>
+  <rect x="1" y="1" width="493" height="193" rx="14" fill="#101521" stroke="url(#frame)" stroke-width="1.5"/>
+  <text x="24" y="36" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#58F7FF">Linguagens mais usadas</text>
+  <clipPath id="bar"><rect x="24" y="54" width="447" height="10" rx="5"/></clipPath>
+  <g clip-path="url(#bar)">
+    <rect x="24.00" y="54" width="296.15" height="10" fill="#58F7FF"/>
+    <rect x="319.65" y="54" width="58.49" height="10" fill="#FF4FD8"/>
+    <rect x="377.64" y="54" width="44.48" height="10" fill="#FFC857"/>
+    <rect x="421.62" y="54" width="18.29" height="10" fill="#8B7CFF"/>
+    <rect x="439.42" y="54" width="14.94" height="10" fill="#5BE9B9"/>
+    <rect x="453.86" y="54" width="8.28" height="10" fill="#FF8A73"/>
+    <rect x="461.64" y="54" width="9.86" height="10" fill="#39445C"/>
+  </g>
+  <g class="fade" style="animation-delay: 0.00s">
+    <circle cx="29" cy="93" r="5" fill="#58F7FF"/>
+    <text x="42" y="98" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#E8EEF5">Python</text>
+    <text x="236" y="98" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="13" fill="#7C8CA5" text-anchor="end">66,1%</text>
+  </g>
+  <g class="fade" style="animation-delay: 0.10s">
+    <circle cx="265" cy="93" r="5" fill="#FF4FD8"/>
+    <text x="278" y="98" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#E8EEF5">C</text>
+    <text x="472" y="98" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="13" fill="#7C8CA5" text-anchor="end">13,0%</text>
+  </g>
+  <g class="fade" style="animation-delay: 0.20s">
+    <circle cx="29" cy="119" r="5" fill="#FFC857"/>
+    <text x="42" y="124" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#E8EEF5">Java</text>
+    <text x="236" y="124" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="13" fill="#7C8CA5" text-anchor="end">9,8%</text>
+  </g>
+  <g class="fade" style="animation-delay: 0.30s">
+    <circle cx="265" cy="119" r="5" fill="#8B7CFF"/>
+    <text x="278" y="124" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#E8EEF5">JavaScript</text>
+    <text x="472" y="124" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="13" fill="#7C8CA5" text-anchor="end">4,0%</text>
+  </g>
+  <g class="fade" style="animation-delay: 0.40s">
+    <circle cx="29" cy="145" r="5" fill="#5BE9B9"/>
+    <text x="42" y="150" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#E8EEF5">CSS</text>
+    <text x="236" y="150" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="13" fill="#7C8CA5" text-anchor="end">3,2%</text>
+  </g>
+  <g class="fade" style="animation-delay: 0.50s">
+    <circle cx="265" cy="145" r="5" fill="#FF8A73"/>
+    <text x="278" y="150" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#E8EEF5">SCSS</text>
+    <text x="472" y="150" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="13" fill="#7C8CA5" text-anchor="end">1,7%</text>
+  </g>
+  <g class="fade" style="animation-delay: 0.60s">
+    <circle cx="29" cy="171" r="5" fill="#39445C"/>
+    <text x="42" y="176" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#E8EEF5">Outras</text>
+    <text x="236" y="176" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="13" fill="#7C8CA5" text-anchor="end">2,1%</text>
+  </g>
+</svg>

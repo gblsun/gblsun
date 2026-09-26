@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="Estatísticas do GitHub">
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF4FD8"/>
+      <stop offset="100%" stop-color="#58F7FF"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .fade { opacity: 0; animation: fade .6s ease-out forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    .ring { stroke-dashoffset: 326.7; animation: ring 1.6s ease-out .3s forwards; }
+    @keyframes ring { to { stroke-dashoffset: 0; } }
+    /* Sem isto, quem desliga animação veria o card vazio: o conteúdo nasce em
+       opacity 0 e só a animação o revela. */
+    @media (prefers-reduced-motion: reduce) {
+      .fade { opacity: 1; animation: none; }
+      .ring, .draw { stroke-dashoffset: 0; animation: none; }
+    }
+  </style>
+  <rect x="1" y="1" width="493" height="193" rx="14" fill="#101521" stroke="url(#frame)" stroke-width="1.5"/>
+  <text x="24" y="36" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#58F7FF">Estatísticas do GitHub</text>
+  <g class="fade" style="animation-delay: 0.00s">
+    <circle cx="30" cy="67" r="3.5" fill="#FF4FD8"/>
+    <text x="44" y="72" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#E8EEF5">Commits no último ano</text>
+    <text x="310" y="72" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="15" font-weight="700" fill="#FF4FD8" text-anchor="end">332</text>
+  </g>
+  <g class="fade" style="animation-delay: 0.15s">
+    <circle cx="30" cy="91" r="3.5" fill="#58F7FF"/>
+    <text x="44" y="96" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#E8EEF5">Estrelas recebidas</text>
+    <text x="310" y="96" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="15" font-weight="700" fill="#58F7FF" text-anchor="end">8</text>
+  </g>
+  <g class="fade" style="animation-delay: 0.30s">
+    <circle cx="30" cy="115" r="3.5" fill="#FF4FD8"/>
+    <text x="44" y="120" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#E8EEF5">Pull requests</text>
+    <text x="310" y="120" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="15" font-weight="700" fill="#FF4FD8" text-anchor="end">2</text>
+  </g>
+  <g class="fade" style="animation-delay: 0.45s">
+    <circle cx="30" cy="139" r="3.5" fill="#58F7FF"/>
+    <text x="44" y="144" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#E8EEF5">Repositórios públicos</text>
+    <text x="310" y="144" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="15" font-weight="700" fill="#58F7FF" text-anchor="end">14</text>
+  </g>
+  <g class="fade" style="animation-delay: 0.60s">
+    <circle cx="30" cy="163" r="3.5" fill="#FF4FD8"/>
+    <text x="44" y="168" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#E8EEF5">Contribuiu em outros repos</text>
+    <text x="310" y="168" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="15" font-weight="700" fill="#FF4FD8" text-anchor="end">1</text>
+  </g>
+  <circle cx="405" cy="112" r="52" fill="none" stroke="#2B3950" stroke-width="7"/>
+  <circle class="ring" cx="405" cy="112" r="52" fill="none" stroke="url(#frame)" stroke-width="7" stroke-linecap="round" stroke-dasharray="326.7" transform="rotate(-90 405 112)"/>
+  <text x="405" y="116" font-family="Consolas, 'Fira Code', 'DejaVu Sans Mono', monospace" font-size="26" font-weight="700" fill="#E8EEF5" text-anchor="middle">348</text>
+  <text x="405" y="136" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7C8CA5" text-anchor="middle">contribuições</text>
+  <text x="405" y="180" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7C8CA5" text-anchor="middle">últimos 12 meses</text>
+</svg>
